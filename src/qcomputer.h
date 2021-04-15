@@ -68,7 +68,6 @@ private slots:
     void onSpaceClicked();
     void enterClicked();
     void autoClicked();
-    void update();
     void onButtonRadioClicked();
 
     //     void refresh();

@@ -1,0 +1,8 @@
+/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build/CMakeFiles/rebuild_cache.dir
+/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build/CMakeFiles/project_try.dir
+/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build/CMakeFiles/edit_cache.dir
+/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build/CMakeFiles/project_try_autogen.dir
+/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build/tools/CMakeFiles/rebuild_cache.dir
+/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build/tools/CMakeFiles/main.dir
+/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build/tools/CMakeFiles/edit_cache.dir
+/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build/tools/CMakeFiles/main_autogen.dir

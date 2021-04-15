@@ -259,20 +259,6 @@ QPushButton *QComputer::creerButton(const QString &text, const char *slot)
     return button;
 }
 
-void QComputer::update()
-{
-    QString str = commande->text();
-    // controleur->executer(str);
-    QList<QString> list = str.split(' ');
-    Litterale *l1 = new LitEntier(list[0].toInt());
-    Litterale *l2 = new LitEntier(list[1].toInt());
-    QString operateurStr = list[2];
-    // Operateur* op = OperateurManager::getOperateur(operateurStr);
-    QString a = "-";
-    // QString st = (new Controleur())->estOperateur(a)->traiter(l1, l2)->getText();
-    // vuePile->item(4, 0)->setText(st);
-}
-
 void QComputer::onButtonClicked()
 {
     QPushButton *buttonSender = (QPushButton *)(sender()); // retrieve the button you have clicked

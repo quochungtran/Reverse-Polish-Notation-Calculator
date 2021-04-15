@@ -1,0 +1,72 @@
+[
+{
+  "directory": "/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build/project_try_autogen/include -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/tools -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -std=c++1z -o CMakeFiles/project_try.dir/src/controleur.cpp.o -c /home/tran/Desktop/Reverse-Polish-Notation-Calculator/src/controleur.cpp",
+  "file": "/home/tran/Desktop/Reverse-Polish-Notation-Calculator/src/controleur.cpp"
+},
+{
+  "directory": "/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build/project_try_autogen/include -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/tools -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -std=c++1z -o CMakeFiles/project_try.dir/src/LitEntier.cpp.o -c /home/tran/Desktop/Reverse-Polish-Notation-Calculator/src/LitEntier.cpp",
+  "file": "/home/tran/Desktop/Reverse-Polish-Notation-Calculator/src/LitEntier.cpp"
+},
+{
+  "directory": "/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build/project_try_autogen/include -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/tools -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -std=c++1z -o CMakeFiles/project_try.dir/src/LitExpression.cpp.o -c /home/tran/Desktop/Reverse-Polish-Notation-Calculator/src/LitExpression.cpp",
+  "file": "/home/tran/Desktop/Reverse-Polish-Notation-Calculator/src/LitExpression.cpp"
+},
+{
+  "directory": "/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build/project_try_autogen/include -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/tools -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -std=c++1z -o CMakeFiles/project_try.dir/src/LitNumerique.cpp.o -c /home/tran/Desktop/Reverse-Polish-Notation-Calculator/src/LitNumerique.cpp",
+  "file": "/home/tran/Desktop/Reverse-Polish-Notation-Calculator/src/LitNumerique.cpp"
+},
+{
+  "directory": "/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build/project_try_autogen/include -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/tools -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -std=c++1z -o CMakeFiles/project_try.dir/src/LitRationelle.cpp.o -c /home/tran/Desktop/Reverse-Polish-Notation-Calculator/src/LitRationelle.cpp",
+  "file": "/home/tran/Desktop/Reverse-Polish-Notation-Calculator/src/LitRationelle.cpp"
+},
+{
+  "directory": "/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build/project_try_autogen/include -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/tools -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -std=c++1z -o CMakeFiles/project_try.dir/src/LitReelle.cpp.o -c /home/tran/Desktop/Reverse-Polish-Notation-Calculator/src/LitReelle.cpp",
+  "file": "/home/tran/Desktop/Reverse-Polish-Notation-Calculator/src/LitReelle.cpp"
+},
+{
+  "directory": "/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build/project_try_autogen/include -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/tools -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -std=c++1z -o CMakeFiles/project_try.dir/src/MainWindow.cpp.o -c /home/tran/Desktop/Reverse-Polish-Notation-Calculator/src/MainWindow.cpp",
+  "file": "/home/tran/Desktop/Reverse-Polish-Notation-Calculator/src/MainWindow.cpp"
+},
+{
+  "directory": "/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build/project_try_autogen/include -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/tools -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -std=c++1z -o CMakeFiles/project_try.dir/src/OperateurManager.cpp.o -c /home/tran/Desktop/Reverse-Polish-Notation-Calculator/src/OperateurManager.cpp",
+  "file": "/home/tran/Desktop/Reverse-Polish-Notation-Calculator/src/OperateurManager.cpp"
+},
+{
+  "directory": "/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build/project_try_autogen/include -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/tools -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -std=c++1z -o CMakeFiles/project_try.dir/src/Operateur.cpp.o -c /home/tran/Desktop/Reverse-Polish-Notation-Calculator/src/Operateur.cpp",
+  "file": "/home/tran/Desktop/Reverse-Polish-Notation-Calculator/src/Operateur.cpp"
+},
+{
+  "directory": "/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build/project_try_autogen/include -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/tools -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -std=c++1z -o CMakeFiles/project_try.dir/src/Pile.cpp.o -c /home/tran/Desktop/Reverse-Polish-Notation-Calculator/src/Pile.cpp",
+  "file": "/home/tran/Desktop/Reverse-Polish-Notation-Calculator/src/Pile.cpp"
+},
+{
+  "directory": "/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build/project_try_autogen/include -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/tools -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -std=c++1z -o CMakeFiles/project_try.dir/src/qcomputer.cpp.o -c /home/tran/Desktop/Reverse-Polish-Notation-Calculator/src/qcomputer.cpp",
+  "file": "/home/tran/Desktop/Reverse-Polish-Notation-Calculator/src/qcomputer.cpp"
+},
+{
+  "directory": "/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build/project_try_autogen/include -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/tools -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -std=c++1z -o CMakeFiles/project_try.dir/project_try_autogen/mocs_compilation.cpp.o -c /home/tran/Desktop/Reverse-Polish-Notation-Calculator/build/project_try_autogen/mocs_compilation.cpp",
+  "file": "/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build/project_try_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build/tools",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build/tools/main_autogen/include -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/tools -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -g  -fPIC -std=c++1z -o CMakeFiles/main.dir/main.cpp.o -c /home/tran/Desktop/Reverse-Polish-Notation-Calculator/tools/main.cpp",
+  "file": "/home/tran/Desktop/Reverse-Polish-Notation-Calculator/tools/main.cpp"
+},
+{
+  "directory": "/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build/tools",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build/tools/main_autogen/include -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/tools -I/home/tran/Desktop/Reverse-Polish-Notation-Calculator/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -g  -fPIC -std=c++1z -o CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o -c /home/tran/Desktop/Reverse-Polish-Notation-Calculator/build/tools/main_autogen/mocs_compilation.cpp",
+  "file": "/home/tran/Desktop/Reverse-Polish-Notation-Calculator/build/tools/main_autogen/mocs_compilation.cpp"
+}
+]

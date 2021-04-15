@@ -14,15 +14,12 @@
 #include <QPushButton>
 #include <QString>
 
-
-using namespace std;
-
 class CalculatorException : public std::runtime_error
 {
-    string info;
+    std::string info;
 
 public:
     CalculatorException(const string &str) : runtime_error{str} {}
-    string getInfo() const { return info; }
+    std::string getInfo() const { return info; }
 };
 #endif
