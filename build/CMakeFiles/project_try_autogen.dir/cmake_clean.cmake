@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
-  "project_try_autogen"
-  "CMakeFiles/project_try_autogen.dir/AutogenOldSettings.cmake"
   "CMakeFiles/project_try_autogen"
+  "project_try_autogen/mocs_compilation.cpp"
 )
 
 # Per-language clean rules from dependency scanning.

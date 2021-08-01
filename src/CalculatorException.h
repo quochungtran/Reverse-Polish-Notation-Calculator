@@ -19,7 +19,7 @@ class CalculatorException : public std::runtime_error
     std::string info;
 
 public:
-    CalculatorException(const string &str) : runtime_error{str} {}
+    CalculatorException(const std::string &str) : runtime_error{str} {}
     std::string getInfo() const { return info; }
 };
 #endif
