@@ -16,16 +16,29 @@ class LitNumerique;
 
 class Litterale
 {
+
 protected:
+
 public:
+
+    // always make destructor virtual when dealing with inheritance
     virtual ~Litterale() = default;
-    //virtual Litterale &simplification() = 0;
-    virtual bool isNull() const = 0;
-    virtual typeLit getType() const = 0;
+
+    //check if the litteral is null,  const member function dont allow to change any member variables
+
+    virtual bool isNull()       const = 0;
+
+    // return type of litterale
+
+    virtual typeLit getType()   const = 0;
+
     // affchier la valeur
-    virtual QString getText() = 0;
+
+    virtual QString getText()         = 0;
+
     // This function permet de tirer le pointeur Numerique pour des classes contient la valeur Numerique
     // on active Polymopphism la
+
     virtual LitNumerique *getValeurNumerique() = 0;
 
 private:
