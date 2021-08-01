@@ -1,10 +1,13 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/main_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/main_autogen.dir/ParseCache.txt"
   "main_autogen"
-  "CMakeFiles/main_autogen.dir/AutogenOldSettings.cmake"
   "CMakeFiles/main.dir/main.cpp.o"
+  "CMakeFiles/main.dir/main.cpp.o.d"
   "CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o"
-  "main.pdb"
+  "CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o.d"
   "main"
+  "main.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
