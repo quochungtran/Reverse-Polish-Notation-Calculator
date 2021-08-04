@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.2)
 
-project(Student VERSION 0.1.0)
+project(Reserve_Polish_notation_calculator)
 
 
 set(CMAKE_CXX_STANDARD 17)
@@ -24,7 +24,6 @@ set(CMAKE_AUTORCC ON)
 
 
 # Configure Qt
-find_package(Qt5 COMPONENTS Widgets REQUIRED)
 find_package(Qt5 COMPONENTS Core REQUIRED)
 find_package(Qt5 COMPONENTS Widgets REQUIRED)
 
@@ -32,11 +31,11 @@ find_package(Qt5 COMPONENTS Widgets REQUIRED)
 INCLUDE_DIRECTORIES(
         ${CMAKE_SOURCE_DIR}/tools
         ${CMAKE_SOURCE_DIR}/src
+        ${CMAKE_SOURCE_DIR}/src/internal
 )
 
 
 SET(all_SOURCES 
-        # ${CMAKE_CURRENT_SOURCE_DIR}/src/mainapp.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/src/controleur.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/src/LitEntier.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/src/LitExpression.cpp
@@ -53,15 +52,17 @@ SET(all_SOURCES
         ${CMAKE_CURRENT_SOURCE_DIR}/src/qcomputer.cpp
    )
 
-ADD_LIBRARY(project_try  STATIC ${all_SOURCES})
+ADD_LIBRARY(calculator  STATIC ${all_SOURCES})
 # add_executable(Student_project ${all_SOURCES})
 
 
 
 # Add the Qt5 components for linking
-target_link_libraries(project_try  Qt5::Widgets)
-target_link_libraries(project_try  Qt5::Core)
-target_link_libraries(project_try  Qt5::Gui)
+target_link_libraries(calculator  Qt5::Widgets)
+target_link_libraries(calculator  Qt5::Core)
+target_link_libraries(calculator  Qt5::Gui)
 
 
 add_subdirectory(tools)
+add_subdirectory(src)
+

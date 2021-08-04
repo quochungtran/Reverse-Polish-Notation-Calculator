@@ -145,22 +145,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Student
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION:STATIC=0.1.0
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_MAJOR:STATIC=0
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_MINOR:STATIC=1
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_PATCH:STATIC=0
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_TWEAK:STATIC=
+CMAKE_PROJECT_NAME:STATIC=Reserve_Polish_notation_calculator
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -237,16 +222,16 @@ Qt5Widgets_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets
 Qt5_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5
 
 //Value Computed by CMake
-Student_BINARY_DIR:STATIC=/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build
+Reserve_Polish_notation_calculator_BINARY_DIR:STATIC=/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build
 
 //Value Computed by CMake
-Student_IS_TOP_LEVEL:STATIC=ON
+Reserve_Polish_notation_calculator_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-Student_SOURCE_DIR:STATIC=/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator
+Reserve_Polish_notation_calculator_SOURCE_DIR:STATIC=/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator
 
 //Dependencies for the target
-project_try_LIB_DEPENDS:STATIC=general;Qt5::Widgets;general;Qt5::Core;general;Qt5::Gui;
+calculator_LIB_DEPENDS:STATIC=general;Qt5::Widgets;general;Qt5::Core;general;Qt5::Gui;
 
 
 ########################
@@ -351,7 +336,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

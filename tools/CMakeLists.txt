@@ -20,7 +20,7 @@ MACRO(PROJECT_TOOLS_BUILD)
     ENDIF()
 
     TARGET_LINK_LIBRARIES(${_target}            
-                        project_try
+                        calculator
                         )
 
 ENDMACRO()
@@ -29,7 +29,7 @@ ENDMACRO()
 
 # Add here new tools to compile.
 
-PROJECT_TOOLS_BUILD(main.cpp)
+PROJECT_TOOLS_BUILD(testUnit1.cpp)
 
 
 

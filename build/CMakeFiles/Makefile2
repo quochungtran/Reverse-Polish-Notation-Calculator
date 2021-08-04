@@ -63,25 +63,44 @@ CMAKE_BINARY_DIR = /home/tranquochung/Desktop/repositories/github/Reverse-Polish
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/project_try.dir/all
+all: CMakeFiles/calculator.dir/all
 all: tools/all
+all: src/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: tools/preinstall
+preinstall: src/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/project_try.dir/clean
-clean: CMakeFiles/project_try_autogen.dir/clean
+clean: CMakeFiles/calculator.dir/clean
+clean: CMakeFiles/calculator_autogen.dir/clean
 clean: tools/clean
+clean: src/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory src
+
+# Recursive "all" directory target.
+src/all: src/CMakeFiles/calculator_app.dir/all
+.PHONY : src/all
+
+# Recursive "preinstall" directory target.
+src/preinstall:
+.PHONY : src/preinstall
+
+# Recursive "clean" directory target.
+src/clean: src/CMakeFiles/calculator_app.dir/clean
+src/clean: src/CMakeFiles/calculator_app_autogen.dir/clean
+.PHONY : src/clean
 
 #=============================================================================
 # Directory level rules for directory tools
 
 # Recursive "all" directory target.
-tools/all: tools/CMakeFiles/main.dir/all
+tools/all: tools/CMakeFiles/testUnit1.dir/all
 .PHONY : tools/all
 
 # Recursive "preinstall" directory target.
@@ -89,114 +108,167 @@ tools/preinstall:
 .PHONY : tools/preinstall
 
 # Recursive "clean" directory target.
-tools/clean: tools/CMakeFiles/main.dir/clean
-tools/clean: tools/CMakeFiles/main_autogen.dir/clean
+tools/clean: tools/CMakeFiles/testUnit1.dir/clean
+tools/clean: tools/CMakeFiles/testUnit1_autogen.dir/clean
 .PHONY : tools/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/project_try.dir
+# Target rules for target CMakeFiles/calculator.dir
 
 # All Build rule for target.
-CMakeFiles/project_try.dir/all: CMakeFiles/project_try_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13,14,15,16,17 "Built target project_try"
-.PHONY : CMakeFiles/project_try.dir/all
+CMakeFiles/calculator.dir/all: CMakeFiles/calculator_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target calculator"
+.PHONY : CMakeFiles/calculator.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/project_try.dir/rule: cmake_check_build_system
+CMakeFiles/calculator.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles 14
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/project_try.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/calculator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles 0
-.PHONY : CMakeFiles/project_try.dir/rule
+.PHONY : CMakeFiles/calculator.dir/rule
 
 # Convenience name for target.
-project_try: CMakeFiles/project_try.dir/rule
-.PHONY : project_try
+calculator: CMakeFiles/calculator.dir/rule
+.PHONY : calculator
 
 # clean rule for target.
-CMakeFiles/project_try.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/clean
-.PHONY : CMakeFiles/project_try.dir/clean
+CMakeFiles/calculator.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/clean
+.PHONY : CMakeFiles/calculator.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/project_try_autogen.dir
+# Target rules for target CMakeFiles/calculator_autogen.dir
 
 # All Build rule for target.
-CMakeFiles/project_try_autogen.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try_autogen.dir/build.make CMakeFiles/project_try_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try_autogen.dir/build.make CMakeFiles/project_try_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles --progress-num=18 "Built target project_try_autogen"
-.PHONY : CMakeFiles/project_try_autogen.dir/all
+CMakeFiles/calculator_autogen.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator_autogen.dir/build.make CMakeFiles/calculator_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator_autogen.dir/build.make CMakeFiles/calculator_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles --progress-num=18 "Built target calculator_autogen"
+.PHONY : CMakeFiles/calculator_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/project_try_autogen.dir/rule: cmake_check_build_system
+CMakeFiles/calculator_autogen.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/project_try_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/calculator_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles 0
-.PHONY : CMakeFiles/project_try_autogen.dir/rule
+.PHONY : CMakeFiles/calculator_autogen.dir/rule
 
 # Convenience name for target.
-project_try_autogen: CMakeFiles/project_try_autogen.dir/rule
-.PHONY : project_try_autogen
+calculator_autogen: CMakeFiles/calculator_autogen.dir/rule
+.PHONY : calculator_autogen
 
 # clean rule for target.
-CMakeFiles/project_try_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try_autogen.dir/build.make CMakeFiles/project_try_autogen.dir/clean
-.PHONY : CMakeFiles/project_try_autogen.dir/clean
+CMakeFiles/calculator_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator_autogen.dir/build.make CMakeFiles/calculator_autogen.dir/clean
+.PHONY : CMakeFiles/calculator_autogen.dir/clean
 
 #=============================================================================
-# Target rules for target tools/CMakeFiles/main.dir
+# Target rules for target tools/CMakeFiles/testUnit1.dir
 
 # All Build rule for target.
-tools/CMakeFiles/main.dir/all: CMakeFiles/project_try.dir/all
-tools/CMakeFiles/main.dir/all: tools/CMakeFiles/main_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f tools/CMakeFiles/main.dir/build.make tools/CMakeFiles/main.dir/depend
-	$(MAKE) $(MAKESILENT) -f tools/CMakeFiles/main.dir/build.make tools/CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles --progress-num=1,2,3 "Built target main"
-.PHONY : tools/CMakeFiles/main.dir/all
+tools/CMakeFiles/testUnit1.dir/all: CMakeFiles/calculator.dir/all
+tools/CMakeFiles/testUnit1.dir/all: tools/CMakeFiles/testUnit1_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f tools/CMakeFiles/testUnit1.dir/build.make tools/CMakeFiles/testUnit1.dir/depend
+	$(MAKE) $(MAKESILENT) -f tools/CMakeFiles/testUnit1.dir/build.make tools/CMakeFiles/testUnit1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles --progress-num=19,20,21 "Built target testUnit1"
+.PHONY : tools/CMakeFiles/testUnit1.dir/all
 
 # Build rule for subdir invocation for target.
-tools/CMakeFiles/main.dir/rule: cmake_check_build_system
+tools/CMakeFiles/testUnit1.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles 18
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/CMakeFiles/main.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/CMakeFiles/testUnit1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles 0
-.PHONY : tools/CMakeFiles/main.dir/rule
+.PHONY : tools/CMakeFiles/testUnit1.dir/rule
 
 # Convenience name for target.
-main: tools/CMakeFiles/main.dir/rule
-.PHONY : main
+testUnit1: tools/CMakeFiles/testUnit1.dir/rule
+.PHONY : testUnit1
 
 # clean rule for target.
-tools/CMakeFiles/main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f tools/CMakeFiles/main.dir/build.make tools/CMakeFiles/main.dir/clean
-.PHONY : tools/CMakeFiles/main.dir/clean
+tools/CMakeFiles/testUnit1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f tools/CMakeFiles/testUnit1.dir/build.make tools/CMakeFiles/testUnit1.dir/clean
+.PHONY : tools/CMakeFiles/testUnit1.dir/clean
 
 #=============================================================================
-# Target rules for target tools/CMakeFiles/main_autogen.dir
+# Target rules for target tools/CMakeFiles/testUnit1_autogen.dir
 
 # All Build rule for target.
-tools/CMakeFiles/main_autogen.dir/all: CMakeFiles/project_try.dir/all
-	$(MAKE) $(MAKESILENT) -f tools/CMakeFiles/main_autogen.dir/build.make tools/CMakeFiles/main_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f tools/CMakeFiles/main_autogen.dir/build.make tools/CMakeFiles/main_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles --progress-num=4 "Built target main_autogen"
-.PHONY : tools/CMakeFiles/main_autogen.dir/all
+tools/CMakeFiles/testUnit1_autogen.dir/all: CMakeFiles/calculator.dir/all
+	$(MAKE) $(MAKESILENT) -f tools/CMakeFiles/testUnit1_autogen.dir/build.make tools/CMakeFiles/testUnit1_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f tools/CMakeFiles/testUnit1_autogen.dir/build.make tools/CMakeFiles/testUnit1_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles --progress-num=22 "Built target testUnit1_autogen"
+.PHONY : tools/CMakeFiles/testUnit1_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-tools/CMakeFiles/main_autogen.dir/rule: cmake_check_build_system
+tools/CMakeFiles/testUnit1_autogen.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles 15
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/CMakeFiles/main_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/CMakeFiles/testUnit1_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles 0
-.PHONY : tools/CMakeFiles/main_autogen.dir/rule
+.PHONY : tools/CMakeFiles/testUnit1_autogen.dir/rule
 
 # Convenience name for target.
-main_autogen: tools/CMakeFiles/main_autogen.dir/rule
-.PHONY : main_autogen
+testUnit1_autogen: tools/CMakeFiles/testUnit1_autogen.dir/rule
+.PHONY : testUnit1_autogen
 
 # clean rule for target.
-tools/CMakeFiles/main_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f tools/CMakeFiles/main_autogen.dir/build.make tools/CMakeFiles/main_autogen.dir/clean
-.PHONY : tools/CMakeFiles/main_autogen.dir/clean
+tools/CMakeFiles/testUnit1_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f tools/CMakeFiles/testUnit1_autogen.dir/build.make tools/CMakeFiles/testUnit1_autogen.dir/clean
+.PHONY : tools/CMakeFiles/testUnit1_autogen.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/calculator_app.dir
+
+# All Build rule for target.
+src/CMakeFiles/calculator_app.dir/all: CMakeFiles/calculator.dir/all
+src/CMakeFiles/calculator_app.dir/all: src/CMakeFiles/calculator_app_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/calculator_app.dir/build.make src/CMakeFiles/calculator_app.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/calculator_app.dir/build.make src/CMakeFiles/calculator_app.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles --progress-num=14,15,16 "Built target calculator_app"
+.PHONY : src/CMakeFiles/calculator_app.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/calculator_app.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles 18
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/calculator_app.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/calculator_app.dir/rule
+
+# Convenience name for target.
+calculator_app: src/CMakeFiles/calculator_app.dir/rule
+.PHONY : calculator_app
+
+# clean rule for target.
+src/CMakeFiles/calculator_app.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/calculator_app.dir/build.make src/CMakeFiles/calculator_app.dir/clean
+.PHONY : src/CMakeFiles/calculator_app.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/calculator_app_autogen.dir
+
+# All Build rule for target.
+src/CMakeFiles/calculator_app_autogen.dir/all: CMakeFiles/calculator.dir/all
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/calculator_app_autogen.dir/build.make src/CMakeFiles/calculator_app_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/calculator_app_autogen.dir/build.make src/CMakeFiles/calculator_app_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles --progress-num=17 "Built target calculator_app_autogen"
+.PHONY : src/CMakeFiles/calculator_app_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/calculator_app_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles 15
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/calculator_app_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/calculator_app_autogen.dir/rule
+
+# Convenience name for target.
+calculator_app_autogen: src/CMakeFiles/calculator_app_autogen.dir/rule
+.PHONY : calculator_app_autogen
+
+# clean rule for target.
+src/CMakeFiles/calculator_app_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/calculator_app_autogen.dir/build.make src/CMakeFiles/calculator_app_autogen.dir/clean
+.PHONY : src/CMakeFiles/calculator_app_autogen.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

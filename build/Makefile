@@ -117,87 +117,113 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named project_try
+# Target rules for targets named calculator
 
 # Build rule for target.
-project_try: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 project_try
-.PHONY : project_try
+calculator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 calculator
+.PHONY : calculator
 
 # fast build rule for target.
-project_try/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/build
-.PHONY : project_try/fast
+calculator/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/build
+.PHONY : calculator/fast
 
 #=============================================================================
-# Target rules for targets named project_try_autogen
+# Target rules for targets named calculator_autogen
 
 # Build rule for target.
-project_try_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 project_try_autogen
-.PHONY : project_try_autogen
+calculator_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 calculator_autogen
+.PHONY : calculator_autogen
 
 # fast build rule for target.
-project_try_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try_autogen.dir/build.make CMakeFiles/project_try_autogen.dir/build
-.PHONY : project_try_autogen/fast
+calculator_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator_autogen.dir/build.make CMakeFiles/calculator_autogen.dir/build
+.PHONY : calculator_autogen/fast
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named testUnit1
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
-.PHONY : main
+testUnit1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 testUnit1
+.PHONY : testUnit1
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f tools/CMakeFiles/main.dir/build.make tools/CMakeFiles/main.dir/build
-.PHONY : main/fast
+testUnit1/fast:
+	$(MAKE) $(MAKESILENT) -f tools/CMakeFiles/testUnit1.dir/build.make tools/CMakeFiles/testUnit1.dir/build
+.PHONY : testUnit1/fast
 
 #=============================================================================
-# Target rules for targets named main_autogen
+# Target rules for targets named testUnit1_autogen
 
 # Build rule for target.
-main_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_autogen
-.PHONY : main_autogen
+testUnit1_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 testUnit1_autogen
+.PHONY : testUnit1_autogen
 
 # fast build rule for target.
-main_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f tools/CMakeFiles/main_autogen.dir/build.make tools/CMakeFiles/main_autogen.dir/build
-.PHONY : main_autogen/fast
+testUnit1_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f tools/CMakeFiles/testUnit1_autogen.dir/build.make tools/CMakeFiles/testUnit1_autogen.dir/build
+.PHONY : testUnit1_autogen/fast
 
-project_try_autogen/mocs_compilation.o: project_try_autogen/mocs_compilation.cpp.o
-.PHONY : project_try_autogen/mocs_compilation.o
+#=============================================================================
+# Target rules for targets named calculator_app
+
+# Build rule for target.
+calculator_app: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 calculator_app
+.PHONY : calculator_app
+
+# fast build rule for target.
+calculator_app/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/calculator_app.dir/build.make src/CMakeFiles/calculator_app.dir/build
+.PHONY : calculator_app/fast
+
+#=============================================================================
+# Target rules for targets named calculator_app_autogen
+
+# Build rule for target.
+calculator_app_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 calculator_app_autogen
+.PHONY : calculator_app_autogen
+
+# fast build rule for target.
+calculator_app_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/calculator_app_autogen.dir/build.make src/CMakeFiles/calculator_app_autogen.dir/build
+.PHONY : calculator_app_autogen/fast
+
+calculator_autogen/mocs_compilation.o: calculator_autogen/mocs_compilation.cpp.o
+.PHONY : calculator_autogen/mocs_compilation.o
 
 # target to build an object file
-project_try_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/project_try_autogen/mocs_compilation.cpp.o
-.PHONY : project_try_autogen/mocs_compilation.cpp.o
+calculator_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.o
+.PHONY : calculator_autogen/mocs_compilation.cpp.o
 
-project_try_autogen/mocs_compilation.i: project_try_autogen/mocs_compilation.cpp.i
-.PHONY : project_try_autogen/mocs_compilation.i
+calculator_autogen/mocs_compilation.i: calculator_autogen/mocs_compilation.cpp.i
+.PHONY : calculator_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-project_try_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/project_try_autogen/mocs_compilation.cpp.i
-.PHONY : project_try_autogen/mocs_compilation.cpp.i
+calculator_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.i
+.PHONY : calculator_autogen/mocs_compilation.cpp.i
 
-project_try_autogen/mocs_compilation.s: project_try_autogen/mocs_compilation.cpp.s
-.PHONY : project_try_autogen/mocs_compilation.s
+calculator_autogen/mocs_compilation.s: calculator_autogen/mocs_compilation.cpp.s
+.PHONY : calculator_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-project_try_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/project_try_autogen/mocs_compilation.cpp.s
-.PHONY : project_try_autogen/mocs_compilation.cpp.s
+calculator_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.s
+.PHONY : calculator_autogen/mocs_compilation.cpp.s
 
 src/LitEntier.o: src/LitEntier.cpp.o
 .PHONY : src/LitEntier.o
 
 # target to build an object file
 src/LitEntier.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/LitEntier.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/LitEntier.cpp.o
 .PHONY : src/LitEntier.cpp.o
 
 src/LitEntier.i: src/LitEntier.cpp.i
@@ -205,7 +231,7 @@ src/LitEntier.i: src/LitEntier.cpp.i
 
 # target to preprocess a source file
 src/LitEntier.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/LitEntier.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/LitEntier.cpp.i
 .PHONY : src/LitEntier.cpp.i
 
 src/LitEntier.s: src/LitEntier.cpp.s
@@ -213,7 +239,7 @@ src/LitEntier.s: src/LitEntier.cpp.s
 
 # target to generate assembly for a file
 src/LitEntier.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/LitEntier.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/LitEntier.cpp.s
 .PHONY : src/LitEntier.cpp.s
 
 src/LitExpression.o: src/LitExpression.cpp.o
@@ -221,7 +247,7 @@ src/LitExpression.o: src/LitExpression.cpp.o
 
 # target to build an object file
 src/LitExpression.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/LitExpression.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/LitExpression.cpp.o
 .PHONY : src/LitExpression.cpp.o
 
 src/LitExpression.i: src/LitExpression.cpp.i
@@ -229,7 +255,7 @@ src/LitExpression.i: src/LitExpression.cpp.i
 
 # target to preprocess a source file
 src/LitExpression.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/LitExpression.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/LitExpression.cpp.i
 .PHONY : src/LitExpression.cpp.i
 
 src/LitExpression.s: src/LitExpression.cpp.s
@@ -237,7 +263,7 @@ src/LitExpression.s: src/LitExpression.cpp.s
 
 # target to generate assembly for a file
 src/LitExpression.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/LitExpression.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/LitExpression.cpp.s
 .PHONY : src/LitExpression.cpp.s
 
 src/LitNumerique.o: src/LitNumerique.cpp.o
@@ -245,7 +271,7 @@ src/LitNumerique.o: src/LitNumerique.cpp.o
 
 # target to build an object file
 src/LitNumerique.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/LitNumerique.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/LitNumerique.cpp.o
 .PHONY : src/LitNumerique.cpp.o
 
 src/LitNumerique.i: src/LitNumerique.cpp.i
@@ -253,7 +279,7 @@ src/LitNumerique.i: src/LitNumerique.cpp.i
 
 # target to preprocess a source file
 src/LitNumerique.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/LitNumerique.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/LitNumerique.cpp.i
 .PHONY : src/LitNumerique.cpp.i
 
 src/LitNumerique.s: src/LitNumerique.cpp.s
@@ -261,7 +287,7 @@ src/LitNumerique.s: src/LitNumerique.cpp.s
 
 # target to generate assembly for a file
 src/LitNumerique.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/LitNumerique.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/LitNumerique.cpp.s
 .PHONY : src/LitNumerique.cpp.s
 
 src/LitRationelle.o: src/LitRationelle.cpp.o
@@ -269,7 +295,7 @@ src/LitRationelle.o: src/LitRationelle.cpp.o
 
 # target to build an object file
 src/LitRationelle.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/LitRationelle.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/LitRationelle.cpp.o
 .PHONY : src/LitRationelle.cpp.o
 
 src/LitRationelle.i: src/LitRationelle.cpp.i
@@ -277,7 +303,7 @@ src/LitRationelle.i: src/LitRationelle.cpp.i
 
 # target to preprocess a source file
 src/LitRationelle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/LitRationelle.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/LitRationelle.cpp.i
 .PHONY : src/LitRationelle.cpp.i
 
 src/LitRationelle.s: src/LitRationelle.cpp.s
@@ -285,7 +311,7 @@ src/LitRationelle.s: src/LitRationelle.cpp.s
 
 # target to generate assembly for a file
 src/LitRationelle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/LitRationelle.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/LitRationelle.cpp.s
 .PHONY : src/LitRationelle.cpp.s
 
 src/LitReelle.o: src/LitReelle.cpp.o
@@ -293,7 +319,7 @@ src/LitReelle.o: src/LitReelle.cpp.o
 
 # target to build an object file
 src/LitReelle.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/LitReelle.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/LitReelle.cpp.o
 .PHONY : src/LitReelle.cpp.o
 
 src/LitReelle.i: src/LitReelle.cpp.i
@@ -301,7 +327,7 @@ src/LitReelle.i: src/LitReelle.cpp.i
 
 # target to preprocess a source file
 src/LitReelle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/LitReelle.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/LitReelle.cpp.i
 .PHONY : src/LitReelle.cpp.i
 
 src/LitReelle.s: src/LitReelle.cpp.s
@@ -309,7 +335,7 @@ src/LitReelle.s: src/LitReelle.cpp.s
 
 # target to generate assembly for a file
 src/LitReelle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/LitReelle.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/LitReelle.cpp.s
 .PHONY : src/LitReelle.cpp.s
 
 src/MainWindow.o: src/MainWindow.cpp.o
@@ -317,7 +343,7 @@ src/MainWindow.o: src/MainWindow.cpp.o
 
 # target to build an object file
 src/MainWindow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/MainWindow.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/MainWindow.cpp.o
 .PHONY : src/MainWindow.cpp.o
 
 src/MainWindow.i: src/MainWindow.cpp.i
@@ -325,7 +351,7 @@ src/MainWindow.i: src/MainWindow.cpp.i
 
 # target to preprocess a source file
 src/MainWindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/MainWindow.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/MainWindow.cpp.i
 .PHONY : src/MainWindow.cpp.i
 
 src/MainWindow.s: src/MainWindow.cpp.s
@@ -333,7 +359,7 @@ src/MainWindow.s: src/MainWindow.cpp.s
 
 # target to generate assembly for a file
 src/MainWindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/MainWindow.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/MainWindow.cpp.s
 .PHONY : src/MainWindow.cpp.s
 
 src/Operateur.o: src/Operateur.cpp.o
@@ -341,7 +367,7 @@ src/Operateur.o: src/Operateur.cpp.o
 
 # target to build an object file
 src/Operateur.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/Operateur.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/Operateur.cpp.o
 .PHONY : src/Operateur.cpp.o
 
 src/Operateur.i: src/Operateur.cpp.i
@@ -349,7 +375,7 @@ src/Operateur.i: src/Operateur.cpp.i
 
 # target to preprocess a source file
 src/Operateur.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/Operateur.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/Operateur.cpp.i
 .PHONY : src/Operateur.cpp.i
 
 src/Operateur.s: src/Operateur.cpp.s
@@ -357,7 +383,7 @@ src/Operateur.s: src/Operateur.cpp.s
 
 # target to generate assembly for a file
 src/Operateur.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/Operateur.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/Operateur.cpp.s
 .PHONY : src/Operateur.cpp.s
 
 src/OperateurManager.o: src/OperateurManager.cpp.o
@@ -365,7 +391,7 @@ src/OperateurManager.o: src/OperateurManager.cpp.o
 
 # target to build an object file
 src/OperateurManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/OperateurManager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/OperateurManager.cpp.o
 .PHONY : src/OperateurManager.cpp.o
 
 src/OperateurManager.i: src/OperateurManager.cpp.i
@@ -373,7 +399,7 @@ src/OperateurManager.i: src/OperateurManager.cpp.i
 
 # target to preprocess a source file
 src/OperateurManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/OperateurManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/OperateurManager.cpp.i
 .PHONY : src/OperateurManager.cpp.i
 
 src/OperateurManager.s: src/OperateurManager.cpp.s
@@ -381,7 +407,7 @@ src/OperateurManager.s: src/OperateurManager.cpp.s
 
 # target to generate assembly for a file
 src/OperateurManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/OperateurManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/OperateurManager.cpp.s
 .PHONY : src/OperateurManager.cpp.s
 
 src/Pile.o: src/Pile.cpp.o
@@ -389,7 +415,7 @@ src/Pile.o: src/Pile.cpp.o
 
 # target to build an object file
 src/Pile.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/Pile.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/Pile.cpp.o
 .PHONY : src/Pile.cpp.o
 
 src/Pile.i: src/Pile.cpp.i
@@ -397,7 +423,7 @@ src/Pile.i: src/Pile.cpp.i
 
 # target to preprocess a source file
 src/Pile.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/Pile.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/Pile.cpp.i
 .PHONY : src/Pile.cpp.i
 
 src/Pile.s: src/Pile.cpp.s
@@ -405,7 +431,7 @@ src/Pile.s: src/Pile.cpp.s
 
 # target to generate assembly for a file
 src/Pile.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/Pile.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/Pile.cpp.s
 .PHONY : src/Pile.cpp.s
 
 src/controleur.o: src/controleur.cpp.o
@@ -413,7 +439,7 @@ src/controleur.o: src/controleur.cpp.o
 
 # target to build an object file
 src/controleur.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/controleur.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/controleur.cpp.o
 .PHONY : src/controleur.cpp.o
 
 src/controleur.i: src/controleur.cpp.i
@@ -421,7 +447,7 @@ src/controleur.i: src/controleur.cpp.i
 
 # target to preprocess a source file
 src/controleur.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/controleur.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/controleur.cpp.i
 .PHONY : src/controleur.cpp.i
 
 src/controleur.s: src/controleur.cpp.s
@@ -429,7 +455,7 @@ src/controleur.s: src/controleur.cpp.s
 
 # target to generate assembly for a file
 src/controleur.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/controleur.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/controleur.cpp.s
 .PHONY : src/controleur.cpp.s
 
 src/qcomputer.o: src/qcomputer.cpp.o
@@ -437,7 +463,7 @@ src/qcomputer.o: src/qcomputer.cpp.o
 
 # target to build an object file
 src/qcomputer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/qcomputer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/qcomputer.cpp.o
 .PHONY : src/qcomputer.cpp.o
 
 src/qcomputer.i: src/qcomputer.cpp.i
@@ -445,7 +471,7 @@ src/qcomputer.i: src/qcomputer.cpp.i
 
 # target to preprocess a source file
 src/qcomputer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/qcomputer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/qcomputer.cpp.i
 .PHONY : src/qcomputer.cpp.i
 
 src/qcomputer.s: src/qcomputer.cpp.s
@@ -453,7 +479,7 @@ src/qcomputer.s: src/qcomputer.cpp.s
 
 # target to generate assembly for a file
 src/qcomputer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_try.dir/build.make CMakeFiles/project_try.dir/src/qcomputer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/qcomputer.cpp.s
 .PHONY : src/qcomputer.cpp.s
 
 # Help Target
@@ -464,13 +490,15 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... main_autogen"
-	@echo "... project_try_autogen"
-	@echo "... main"
-	@echo "... project_try"
-	@echo "... project_try_autogen/mocs_compilation.o"
-	@echo "... project_try_autogen/mocs_compilation.i"
-	@echo "... project_try_autogen/mocs_compilation.s"
+	@echo "... calculator_app_autogen"
+	@echo "... calculator_autogen"
+	@echo "... testUnit1_autogen"
+	@echo "... calculator"
+	@echo "... calculator_app"
+	@echo "... testUnit1"
+	@echo "... calculator_autogen/mocs_compilation.o"
+	@echo "... calculator_autogen/mocs_compilation.i"
+	@echo "... calculator_autogen/mocs_compilation.s"
 	@echo "... src/LitEntier.o"
 	@echo "... src/LitEntier.i"
 	@echo "... src/LitEntier.s"

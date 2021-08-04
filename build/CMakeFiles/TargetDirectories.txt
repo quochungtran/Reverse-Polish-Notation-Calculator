@@ -1,8 +1,12 @@
 /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles/rebuild_cache.dir
 /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles/edit_cache.dir
-/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles/project_try.dir
-/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles/project_try_autogen.dir
+/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles/calculator.dir
+/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles/calculator_autogen.dir
 /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/tools/CMakeFiles/rebuild_cache.dir
 /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/tools/CMakeFiles/edit_cache.dir
-/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/tools/CMakeFiles/main.dir
-/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/tools/CMakeFiles/main_autogen.dir
+/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/tools/CMakeFiles/testUnit1.dir
+/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/tools/CMakeFiles/testUnit1_autogen.dir
+/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/src/CMakeFiles/edit_cache.dir
+/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/src/CMakeFiles/rebuild_cache.dir
+/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/src/CMakeFiles/calculator_app.dir
+/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/src/CMakeFiles/calculator_app_autogen.dir

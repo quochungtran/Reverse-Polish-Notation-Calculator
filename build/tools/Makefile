@@ -117,80 +117,80 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-tools/CMakeFiles/main.dir/rule:
-	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/CMakeFiles/main.dir/rule
-.PHONY : tools/CMakeFiles/main.dir/rule
+tools/CMakeFiles/testUnit1.dir/rule:
+	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/CMakeFiles/testUnit1.dir/rule
+.PHONY : tools/CMakeFiles/testUnit1.dir/rule
 
 # Convenience name for target.
-main: tools/CMakeFiles/main.dir/rule
-.PHONY : main
+testUnit1: tools/CMakeFiles/testUnit1.dir/rule
+.PHONY : testUnit1
 
 # fast build rule for target.
-main/fast:
-	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/main.dir/build.make tools/CMakeFiles/main.dir/build
-.PHONY : main/fast
+testUnit1/fast:
+	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/testUnit1.dir/build.make tools/CMakeFiles/testUnit1.dir/build
+.PHONY : testUnit1/fast
 
 # Convenience name for target.
-tools/CMakeFiles/main_autogen.dir/rule:
-	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/CMakeFiles/main_autogen.dir/rule
-.PHONY : tools/CMakeFiles/main_autogen.dir/rule
+tools/CMakeFiles/testUnit1_autogen.dir/rule:
+	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/CMakeFiles/testUnit1_autogen.dir/rule
+.PHONY : tools/CMakeFiles/testUnit1_autogen.dir/rule
 
 # Convenience name for target.
-main_autogen: tools/CMakeFiles/main_autogen.dir/rule
-.PHONY : main_autogen
+testUnit1_autogen: tools/CMakeFiles/testUnit1_autogen.dir/rule
+.PHONY : testUnit1_autogen
 
 # fast build rule for target.
-main_autogen/fast:
-	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/main_autogen.dir/build.make tools/CMakeFiles/main_autogen.dir/build
-.PHONY : main_autogen/fast
+testUnit1_autogen/fast:
+	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/testUnit1_autogen.dir/build.make tools/CMakeFiles/testUnit1_autogen.dir/build
+.PHONY : testUnit1_autogen/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/main.dir/build.make tools/CMakeFiles/main.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/main.dir/build.make tools/CMakeFiles/main.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/main.dir/build.make tools/CMakeFiles/main.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-main_autogen/mocs_compilation.o: main_autogen/mocs_compilation.cpp.o
-.PHONY : main_autogen/mocs_compilation.o
+testUnit1.o: testUnit1.cpp.o
+.PHONY : testUnit1.o
 
 # target to build an object file
-main_autogen/mocs_compilation.cpp.o:
-	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/main.dir/build.make tools/CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o
-.PHONY : main_autogen/mocs_compilation.cpp.o
+testUnit1.cpp.o:
+	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/testUnit1.dir/build.make tools/CMakeFiles/testUnit1.dir/testUnit1.cpp.o
+.PHONY : testUnit1.cpp.o
 
-main_autogen/mocs_compilation.i: main_autogen/mocs_compilation.cpp.i
-.PHONY : main_autogen/mocs_compilation.i
+testUnit1.i: testUnit1.cpp.i
+.PHONY : testUnit1.i
 
 # target to preprocess a source file
-main_autogen/mocs_compilation.cpp.i:
-	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/main.dir/build.make tools/CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.i
-.PHONY : main_autogen/mocs_compilation.cpp.i
+testUnit1.cpp.i:
+	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/testUnit1.dir/build.make tools/CMakeFiles/testUnit1.dir/testUnit1.cpp.i
+.PHONY : testUnit1.cpp.i
 
-main_autogen/mocs_compilation.s: main_autogen/mocs_compilation.cpp.s
-.PHONY : main_autogen/mocs_compilation.s
+testUnit1.s: testUnit1.cpp.s
+.PHONY : testUnit1.s
 
 # target to generate assembly for a file
-main_autogen/mocs_compilation.cpp.s:
-	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/main.dir/build.make tools/CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.s
-.PHONY : main_autogen/mocs_compilation.cpp.s
+testUnit1.cpp.s:
+	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/testUnit1.dir/build.make tools/CMakeFiles/testUnit1.dir/testUnit1.cpp.s
+.PHONY : testUnit1.cpp.s
+
+testUnit1_autogen/mocs_compilation.o: testUnit1_autogen/mocs_compilation.cpp.o
+.PHONY : testUnit1_autogen/mocs_compilation.o
+
+# target to build an object file
+testUnit1_autogen/mocs_compilation.cpp.o:
+	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/testUnit1.dir/build.make tools/CMakeFiles/testUnit1.dir/testUnit1_autogen/mocs_compilation.cpp.o
+.PHONY : testUnit1_autogen/mocs_compilation.cpp.o
+
+testUnit1_autogen/mocs_compilation.i: testUnit1_autogen/mocs_compilation.cpp.i
+.PHONY : testUnit1_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+testUnit1_autogen/mocs_compilation.cpp.i:
+	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/testUnit1.dir/build.make tools/CMakeFiles/testUnit1.dir/testUnit1_autogen/mocs_compilation.cpp.i
+.PHONY : testUnit1_autogen/mocs_compilation.cpp.i
+
+testUnit1_autogen/mocs_compilation.s: testUnit1_autogen/mocs_compilation.cpp.s
+.PHONY : testUnit1_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+testUnit1_autogen/mocs_compilation.cpp.s:
+	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/testUnit1.dir/build.make tools/CMakeFiles/testUnit1.dir/testUnit1_autogen/mocs_compilation.cpp.s
+.PHONY : testUnit1_autogen/mocs_compilation.cpp.s
 
 # Help Target
 help:
@@ -200,14 +200,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... main_autogen"
-	@echo "... main"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... main_autogen/mocs_compilation.o"
-	@echo "... main_autogen/mocs_compilation.i"
-	@echo "... main_autogen/mocs_compilation.s"
+	@echo "... testUnit1_autogen"
+	@echo "... testUnit1"
+	@echo "... testUnit1.o"
+	@echo "... testUnit1.i"
+	@echo "... testUnit1.s"
+	@echo "... testUnit1_autogen/mocs_compilation.o"
+	@echo "... testUnit1_autogen/mocs_compilation.i"
+	@echo "... testUnit1_autogen/mocs_compilation.s"
 .PHONY : help
 
 
