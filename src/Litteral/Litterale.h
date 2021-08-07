@@ -41,8 +41,8 @@ public:
     virtual QString getText()         = 0;
 
     /**    
-    * This function permet de tirer le pointeur Numerique pour des classes contient la valeur Numerique
-    * on active Polymopphism la
+    * take pointeur Numerique pour derived classes Numerique
+    * active Polymopphism 
     */
     virtual LitNumerique *getValeurNumerique() = 0;
 
