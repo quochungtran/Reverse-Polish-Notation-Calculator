@@ -4,7 +4,9 @@ typeLit LitNumerique::typeMax(Litterale &l)
 {
     typeLit type_this = this->getType();
     typeLit type_l = l.getType();
+    
     int type_max_int = std::max(static_cast<int>(type_this), static_cast<int>(type_l));
+    
     typeLit type_max = static_cast<typeLit>(type_max_int);
     return type_max;
 };
