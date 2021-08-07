@@ -32,16 +32,17 @@ INCLUDE_DIRECTORIES(
         ${CMAKE_SOURCE_DIR}/tools
         ${CMAKE_SOURCE_DIR}/src
         ${CMAKE_SOURCE_DIR}/src/internal
+        ${CMAKE_SOURCE_DIR}/src/Litteral
 )
 
 
 SET(all_SOURCES 
         ${CMAKE_CURRENT_SOURCE_DIR}/src/controleur.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/src/LitEntier.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/src/LitExpression.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/src/LitNumerique.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/src/LitRationelle.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/src/LitReelle.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/Litteral/LitEntier.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/Litteral/LitExpression.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/Litteral/LitNumerique.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/Litteral/LitRationelle.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/Litteral/LitReelle.cpp
         
         ${CMAKE_CURRENT_SOURCE_DIR}/src/MainWindow.cpp
 

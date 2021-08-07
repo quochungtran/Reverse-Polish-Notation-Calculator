@@ -753,19 +753,24 @@ CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.o: \
  /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/calculator_autogen/UVLADIE3JM/../../../src/OperateurManager.h \
  /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/calculator_autogen/UVLADIE3JM/../../../src/Operateur.h \
  /usr/include/c++/9/iostream \
- /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/calculator_autogen/UVLADIE3JM/../../../src/LitEntier.h \
- /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/calculator_autogen/UVLADIE3JM/../../../src/LitNumerique.h \
- /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/calculator_autogen/UVLADIE3JM/../../../src/LitNumber.h \
- /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/calculator_autogen/UVLADIE3JM/../../../src/Litterale.h \
- /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/calculator_autogen/UVLADIE3JM/../../../src/CalculatorException.h \
+ /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitEntier.h \
+ /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitNumerique.h \
+ /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitNumber.h \
+ /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/Litterale.h \
+ /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/CalculatorException.h \
  /usr/include/c++/9/sstream /usr/include/c++/9/bits/sstream.tcc \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
- /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/calculator_autogen/UVLADIE3JM/../../../src/LitReelle.h \
- /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/calculator_autogen/UVLADIE3JM/../../../src/LitRationelle.h \
- /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/calculator_autogen/UVLADIE3JM/../../../src/LitExpression.h \
- /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/calculator_autogen/UVLADIE3JM/../../../src/LitProgramme.h \
+ /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitReelle.h \
+ /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitRationelle.h \
+ /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitEntier.h \
+ /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitReelle.h \
+ /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitExpression.h \
+ /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitProgramme.h \
+ /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/calculator_autogen/UVLADIE3JM/../../../src/CalculatorException.h \
  /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/calculator_autogen/UVLADIE3JM/../../../src/Pile.h \
- /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/calculator_autogen/UVLADIE3JM/../../../src/LitAtom.h \
+ /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/Litterale.h \
+ /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitAtom.h \
+ /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitProgramme.h \
  /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/calculator_autogen/UVLADIE3JM/../../../src/Stockage.h \
  /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/calculator_autogen/UVLADIE3JM/../../../src/OperateurLogique.h \
  /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/calculator_autogen/UVLADIE3JM/../../../src/OperateurNumerique.h \

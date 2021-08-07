@@ -752,19 +752,24 @@ CMakeFiles/calculator.dir/src/MainWindow.cpp.o: \
  /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/OperateurManager.h \
  /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Operateur.h \
  /usr/include/c++/9/iostream \
- /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/LitEntier.h \
- /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/LitNumerique.h \
- /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/LitNumber.h \
- /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litterale.h \
+ /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitEntier.h \
+ /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitNumerique.h \
+ /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitNumber.h \
+ /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/Litterale.h \
  /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/CalculatorException.h \
  /usr/include/c++/9/sstream /usr/include/c++/9/bits/sstream.tcc \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
- /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/LitReelle.h \
- /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/LitRationelle.h \
- /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/LitExpression.h \
- /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/LitProgramme.h \
+ /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitReelle.h \
+ /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitRationelle.h \
+ /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitEntier.h \
+ /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitReelle.h \
+ /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitExpression.h \
+ /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitProgramme.h \
+ /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/CalculatorException.h \
  /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Pile.h \
- /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/LitAtom.h \
+ /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/Litterale.h \
+ /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitAtom.h \
+ /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitProgramme.h \
  /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Stockage.h \
  /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/OperateurLogique.h \
  /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/OperateurNumerique.h \

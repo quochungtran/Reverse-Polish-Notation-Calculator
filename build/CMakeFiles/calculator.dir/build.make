@@ -97,75 +97,75 @@ CMakeFiles/calculator.dir/src/controleur.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/src/controleur.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/controleur.cpp -o CMakeFiles/calculator.dir/src/controleur.cpp.s
 
-CMakeFiles/calculator.dir/src/LitEntier.cpp.o: CMakeFiles/calculator.dir/flags.make
-CMakeFiles/calculator.dir/src/LitEntier.cpp.o: ../src/LitEntier.cpp
-CMakeFiles/calculator.dir/src/LitEntier.cpp.o: CMakeFiles/calculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/calculator.dir/src/LitEntier.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/src/LitEntier.cpp.o -MF CMakeFiles/calculator.dir/src/LitEntier.cpp.o.d -o CMakeFiles/calculator.dir/src/LitEntier.cpp.o -c /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/LitEntier.cpp
+CMakeFiles/calculator.dir/src/Litteral/LitEntier.cpp.o: CMakeFiles/calculator.dir/flags.make
+CMakeFiles/calculator.dir/src/Litteral/LitEntier.cpp.o: ../src/Litteral/LitEntier.cpp
+CMakeFiles/calculator.dir/src/Litteral/LitEntier.cpp.o: CMakeFiles/calculator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/calculator.dir/src/Litteral/LitEntier.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/src/Litteral/LitEntier.cpp.o -MF CMakeFiles/calculator.dir/src/Litteral/LitEntier.cpp.o.d -o CMakeFiles/calculator.dir/src/Litteral/LitEntier.cpp.o -c /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitEntier.cpp
 
-CMakeFiles/calculator.dir/src/LitEntier.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator.dir/src/LitEntier.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/LitEntier.cpp > CMakeFiles/calculator.dir/src/LitEntier.cpp.i
+CMakeFiles/calculator.dir/src/Litteral/LitEntier.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator.dir/src/Litteral/LitEntier.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitEntier.cpp > CMakeFiles/calculator.dir/src/Litteral/LitEntier.cpp.i
 
-CMakeFiles/calculator.dir/src/LitEntier.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/src/LitEntier.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/LitEntier.cpp -o CMakeFiles/calculator.dir/src/LitEntier.cpp.s
+CMakeFiles/calculator.dir/src/Litteral/LitEntier.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/src/Litteral/LitEntier.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitEntier.cpp -o CMakeFiles/calculator.dir/src/Litteral/LitEntier.cpp.s
 
-CMakeFiles/calculator.dir/src/LitExpression.cpp.o: CMakeFiles/calculator.dir/flags.make
-CMakeFiles/calculator.dir/src/LitExpression.cpp.o: ../src/LitExpression.cpp
-CMakeFiles/calculator.dir/src/LitExpression.cpp.o: CMakeFiles/calculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/calculator.dir/src/LitExpression.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/src/LitExpression.cpp.o -MF CMakeFiles/calculator.dir/src/LitExpression.cpp.o.d -o CMakeFiles/calculator.dir/src/LitExpression.cpp.o -c /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/LitExpression.cpp
+CMakeFiles/calculator.dir/src/Litteral/LitExpression.cpp.o: CMakeFiles/calculator.dir/flags.make
+CMakeFiles/calculator.dir/src/Litteral/LitExpression.cpp.o: ../src/Litteral/LitExpression.cpp
+CMakeFiles/calculator.dir/src/Litteral/LitExpression.cpp.o: CMakeFiles/calculator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/calculator.dir/src/Litteral/LitExpression.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/src/Litteral/LitExpression.cpp.o -MF CMakeFiles/calculator.dir/src/Litteral/LitExpression.cpp.o.d -o CMakeFiles/calculator.dir/src/Litteral/LitExpression.cpp.o -c /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitExpression.cpp
 
-CMakeFiles/calculator.dir/src/LitExpression.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator.dir/src/LitExpression.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/LitExpression.cpp > CMakeFiles/calculator.dir/src/LitExpression.cpp.i
+CMakeFiles/calculator.dir/src/Litteral/LitExpression.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator.dir/src/Litteral/LitExpression.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitExpression.cpp > CMakeFiles/calculator.dir/src/Litteral/LitExpression.cpp.i
 
-CMakeFiles/calculator.dir/src/LitExpression.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/src/LitExpression.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/LitExpression.cpp -o CMakeFiles/calculator.dir/src/LitExpression.cpp.s
+CMakeFiles/calculator.dir/src/Litteral/LitExpression.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/src/Litteral/LitExpression.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitExpression.cpp -o CMakeFiles/calculator.dir/src/Litteral/LitExpression.cpp.s
 
-CMakeFiles/calculator.dir/src/LitNumerique.cpp.o: CMakeFiles/calculator.dir/flags.make
-CMakeFiles/calculator.dir/src/LitNumerique.cpp.o: ../src/LitNumerique.cpp
-CMakeFiles/calculator.dir/src/LitNumerique.cpp.o: CMakeFiles/calculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/calculator.dir/src/LitNumerique.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/src/LitNumerique.cpp.o -MF CMakeFiles/calculator.dir/src/LitNumerique.cpp.o.d -o CMakeFiles/calculator.dir/src/LitNumerique.cpp.o -c /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/LitNumerique.cpp
+CMakeFiles/calculator.dir/src/Litteral/LitNumerique.cpp.o: CMakeFiles/calculator.dir/flags.make
+CMakeFiles/calculator.dir/src/Litteral/LitNumerique.cpp.o: ../src/Litteral/LitNumerique.cpp
+CMakeFiles/calculator.dir/src/Litteral/LitNumerique.cpp.o: CMakeFiles/calculator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/calculator.dir/src/Litteral/LitNumerique.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/src/Litteral/LitNumerique.cpp.o -MF CMakeFiles/calculator.dir/src/Litteral/LitNumerique.cpp.o.d -o CMakeFiles/calculator.dir/src/Litteral/LitNumerique.cpp.o -c /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitNumerique.cpp
 
-CMakeFiles/calculator.dir/src/LitNumerique.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator.dir/src/LitNumerique.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/LitNumerique.cpp > CMakeFiles/calculator.dir/src/LitNumerique.cpp.i
+CMakeFiles/calculator.dir/src/Litteral/LitNumerique.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator.dir/src/Litteral/LitNumerique.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitNumerique.cpp > CMakeFiles/calculator.dir/src/Litteral/LitNumerique.cpp.i
 
-CMakeFiles/calculator.dir/src/LitNumerique.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/src/LitNumerique.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/LitNumerique.cpp -o CMakeFiles/calculator.dir/src/LitNumerique.cpp.s
+CMakeFiles/calculator.dir/src/Litteral/LitNumerique.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/src/Litteral/LitNumerique.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitNumerique.cpp -o CMakeFiles/calculator.dir/src/Litteral/LitNumerique.cpp.s
 
-CMakeFiles/calculator.dir/src/LitRationelle.cpp.o: CMakeFiles/calculator.dir/flags.make
-CMakeFiles/calculator.dir/src/LitRationelle.cpp.o: ../src/LitRationelle.cpp
-CMakeFiles/calculator.dir/src/LitRationelle.cpp.o: CMakeFiles/calculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/calculator.dir/src/LitRationelle.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/src/LitRationelle.cpp.o -MF CMakeFiles/calculator.dir/src/LitRationelle.cpp.o.d -o CMakeFiles/calculator.dir/src/LitRationelle.cpp.o -c /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/LitRationelle.cpp
+CMakeFiles/calculator.dir/src/Litteral/LitRationelle.cpp.o: CMakeFiles/calculator.dir/flags.make
+CMakeFiles/calculator.dir/src/Litteral/LitRationelle.cpp.o: ../src/Litteral/LitRationelle.cpp
+CMakeFiles/calculator.dir/src/Litteral/LitRationelle.cpp.o: CMakeFiles/calculator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/calculator.dir/src/Litteral/LitRationelle.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/src/Litteral/LitRationelle.cpp.o -MF CMakeFiles/calculator.dir/src/Litteral/LitRationelle.cpp.o.d -o CMakeFiles/calculator.dir/src/Litteral/LitRationelle.cpp.o -c /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitRationelle.cpp
 
-CMakeFiles/calculator.dir/src/LitRationelle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator.dir/src/LitRationelle.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/LitRationelle.cpp > CMakeFiles/calculator.dir/src/LitRationelle.cpp.i
+CMakeFiles/calculator.dir/src/Litteral/LitRationelle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator.dir/src/Litteral/LitRationelle.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitRationelle.cpp > CMakeFiles/calculator.dir/src/Litteral/LitRationelle.cpp.i
 
-CMakeFiles/calculator.dir/src/LitRationelle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/src/LitRationelle.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/LitRationelle.cpp -o CMakeFiles/calculator.dir/src/LitRationelle.cpp.s
+CMakeFiles/calculator.dir/src/Litteral/LitRationelle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/src/Litteral/LitRationelle.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitRationelle.cpp -o CMakeFiles/calculator.dir/src/Litteral/LitRationelle.cpp.s
 
-CMakeFiles/calculator.dir/src/LitReelle.cpp.o: CMakeFiles/calculator.dir/flags.make
-CMakeFiles/calculator.dir/src/LitReelle.cpp.o: ../src/LitReelle.cpp
-CMakeFiles/calculator.dir/src/LitReelle.cpp.o: CMakeFiles/calculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/calculator.dir/src/LitReelle.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/src/LitReelle.cpp.o -MF CMakeFiles/calculator.dir/src/LitReelle.cpp.o.d -o CMakeFiles/calculator.dir/src/LitReelle.cpp.o -c /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/LitReelle.cpp
+CMakeFiles/calculator.dir/src/Litteral/LitReelle.cpp.o: CMakeFiles/calculator.dir/flags.make
+CMakeFiles/calculator.dir/src/Litteral/LitReelle.cpp.o: ../src/Litteral/LitReelle.cpp
+CMakeFiles/calculator.dir/src/Litteral/LitReelle.cpp.o: CMakeFiles/calculator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/calculator.dir/src/Litteral/LitReelle.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/src/Litteral/LitReelle.cpp.o -MF CMakeFiles/calculator.dir/src/Litteral/LitReelle.cpp.o.d -o CMakeFiles/calculator.dir/src/Litteral/LitReelle.cpp.o -c /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitReelle.cpp
 
-CMakeFiles/calculator.dir/src/LitReelle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator.dir/src/LitReelle.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/LitReelle.cpp > CMakeFiles/calculator.dir/src/LitReelle.cpp.i
+CMakeFiles/calculator.dir/src/Litteral/LitReelle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator.dir/src/Litteral/LitReelle.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitReelle.cpp > CMakeFiles/calculator.dir/src/Litteral/LitReelle.cpp.i
 
-CMakeFiles/calculator.dir/src/LitReelle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/src/LitReelle.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/LitReelle.cpp -o CMakeFiles/calculator.dir/src/LitReelle.cpp.s
+CMakeFiles/calculator.dir/src/Litteral/LitReelle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/src/Litteral/LitReelle.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitReelle.cpp -o CMakeFiles/calculator.dir/src/Litteral/LitReelle.cpp.s
 
 CMakeFiles/calculator.dir/src/MainWindow.cpp.o: CMakeFiles/calculator.dir/flags.make
 CMakeFiles/calculator.dir/src/MainWindow.cpp.o: ../src/MainWindow.cpp
@@ -241,11 +241,11 @@ CMakeFiles/calculator.dir/src/qcomputer.cpp.s: cmake_force
 calculator_OBJECTS = \
 "CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/calculator.dir/src/controleur.cpp.o" \
-"CMakeFiles/calculator.dir/src/LitEntier.cpp.o" \
-"CMakeFiles/calculator.dir/src/LitExpression.cpp.o" \
-"CMakeFiles/calculator.dir/src/LitNumerique.cpp.o" \
-"CMakeFiles/calculator.dir/src/LitRationelle.cpp.o" \
-"CMakeFiles/calculator.dir/src/LitReelle.cpp.o" \
+"CMakeFiles/calculator.dir/src/Litteral/LitEntier.cpp.o" \
+"CMakeFiles/calculator.dir/src/Litteral/LitExpression.cpp.o" \
+"CMakeFiles/calculator.dir/src/Litteral/LitNumerique.cpp.o" \
+"CMakeFiles/calculator.dir/src/Litteral/LitRationelle.cpp.o" \
+"CMakeFiles/calculator.dir/src/Litteral/LitReelle.cpp.o" \
 "CMakeFiles/calculator.dir/src/MainWindow.cpp.o" \
 "CMakeFiles/calculator.dir/src/OperateurManager.cpp.o" \
 "CMakeFiles/calculator.dir/src/Operateur.cpp.o" \
@@ -257,11 +257,11 @@ calculator_EXTERNAL_OBJECTS =
 
 libcalculator.a: CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.o
 libcalculator.a: CMakeFiles/calculator.dir/src/controleur.cpp.o
-libcalculator.a: CMakeFiles/calculator.dir/src/LitEntier.cpp.o
-libcalculator.a: CMakeFiles/calculator.dir/src/LitExpression.cpp.o
-libcalculator.a: CMakeFiles/calculator.dir/src/LitNumerique.cpp.o
-libcalculator.a: CMakeFiles/calculator.dir/src/LitRationelle.cpp.o
-libcalculator.a: CMakeFiles/calculator.dir/src/LitReelle.cpp.o
+libcalculator.a: CMakeFiles/calculator.dir/src/Litteral/LitEntier.cpp.o
+libcalculator.a: CMakeFiles/calculator.dir/src/Litteral/LitExpression.cpp.o
+libcalculator.a: CMakeFiles/calculator.dir/src/Litteral/LitNumerique.cpp.o
+libcalculator.a: CMakeFiles/calculator.dir/src/Litteral/LitRationelle.cpp.o
+libcalculator.a: CMakeFiles/calculator.dir/src/Litteral/LitReelle.cpp.o
 libcalculator.a: CMakeFiles/calculator.dir/src/MainWindow.cpp.o
 libcalculator.a: CMakeFiles/calculator.dir/src/OperateurManager.cpp.o
 libcalculator.a: CMakeFiles/calculator.dir/src/Operateur.cpp.o

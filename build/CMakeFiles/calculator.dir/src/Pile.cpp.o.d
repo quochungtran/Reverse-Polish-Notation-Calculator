@@ -2,7 +2,7 @@ CMakeFiles/calculator.dir/src/Pile.cpp.o: \
  /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Pile.cpp \
  /usr/include/stdc-predef.h \
  /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Pile.h \
- /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litterale.h \
+ /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/Litterale.h \
  /usr/include/c++/9/iostream \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
@@ -320,4 +320,5 @@ CMakeFiles/calculator.dir/src/Pile.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
+ /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/CalculatorException.h

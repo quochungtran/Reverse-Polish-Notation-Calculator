@@ -218,125 +218,125 @@ calculator_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.s
 .PHONY : calculator_autogen/mocs_compilation.cpp.s
 
-src/LitEntier.o: src/LitEntier.cpp.o
-.PHONY : src/LitEntier.o
+src/Litteral/LitEntier.o: src/Litteral/LitEntier.cpp.o
+.PHONY : src/Litteral/LitEntier.o
 
 # target to build an object file
-src/LitEntier.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/LitEntier.cpp.o
-.PHONY : src/LitEntier.cpp.o
+src/Litteral/LitEntier.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/Litteral/LitEntier.cpp.o
+.PHONY : src/Litteral/LitEntier.cpp.o
 
-src/LitEntier.i: src/LitEntier.cpp.i
-.PHONY : src/LitEntier.i
+src/Litteral/LitEntier.i: src/Litteral/LitEntier.cpp.i
+.PHONY : src/Litteral/LitEntier.i
 
 # target to preprocess a source file
-src/LitEntier.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/LitEntier.cpp.i
-.PHONY : src/LitEntier.cpp.i
+src/Litteral/LitEntier.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/Litteral/LitEntier.cpp.i
+.PHONY : src/Litteral/LitEntier.cpp.i
 
-src/LitEntier.s: src/LitEntier.cpp.s
-.PHONY : src/LitEntier.s
+src/Litteral/LitEntier.s: src/Litteral/LitEntier.cpp.s
+.PHONY : src/Litteral/LitEntier.s
 
 # target to generate assembly for a file
-src/LitEntier.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/LitEntier.cpp.s
-.PHONY : src/LitEntier.cpp.s
+src/Litteral/LitEntier.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/Litteral/LitEntier.cpp.s
+.PHONY : src/Litteral/LitEntier.cpp.s
 
-src/LitExpression.o: src/LitExpression.cpp.o
-.PHONY : src/LitExpression.o
+src/Litteral/LitExpression.o: src/Litteral/LitExpression.cpp.o
+.PHONY : src/Litteral/LitExpression.o
 
 # target to build an object file
-src/LitExpression.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/LitExpression.cpp.o
-.PHONY : src/LitExpression.cpp.o
+src/Litteral/LitExpression.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/Litteral/LitExpression.cpp.o
+.PHONY : src/Litteral/LitExpression.cpp.o
 
-src/LitExpression.i: src/LitExpression.cpp.i
-.PHONY : src/LitExpression.i
+src/Litteral/LitExpression.i: src/Litteral/LitExpression.cpp.i
+.PHONY : src/Litteral/LitExpression.i
 
 # target to preprocess a source file
-src/LitExpression.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/LitExpression.cpp.i
-.PHONY : src/LitExpression.cpp.i
+src/Litteral/LitExpression.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/Litteral/LitExpression.cpp.i
+.PHONY : src/Litteral/LitExpression.cpp.i
 
-src/LitExpression.s: src/LitExpression.cpp.s
-.PHONY : src/LitExpression.s
+src/Litteral/LitExpression.s: src/Litteral/LitExpression.cpp.s
+.PHONY : src/Litteral/LitExpression.s
 
 # target to generate assembly for a file
-src/LitExpression.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/LitExpression.cpp.s
-.PHONY : src/LitExpression.cpp.s
+src/Litteral/LitExpression.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/Litteral/LitExpression.cpp.s
+.PHONY : src/Litteral/LitExpression.cpp.s
 
-src/LitNumerique.o: src/LitNumerique.cpp.o
-.PHONY : src/LitNumerique.o
+src/Litteral/LitNumerique.o: src/Litteral/LitNumerique.cpp.o
+.PHONY : src/Litteral/LitNumerique.o
 
 # target to build an object file
-src/LitNumerique.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/LitNumerique.cpp.o
-.PHONY : src/LitNumerique.cpp.o
+src/Litteral/LitNumerique.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/Litteral/LitNumerique.cpp.o
+.PHONY : src/Litteral/LitNumerique.cpp.o
 
-src/LitNumerique.i: src/LitNumerique.cpp.i
-.PHONY : src/LitNumerique.i
+src/Litteral/LitNumerique.i: src/Litteral/LitNumerique.cpp.i
+.PHONY : src/Litteral/LitNumerique.i
 
 # target to preprocess a source file
-src/LitNumerique.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/LitNumerique.cpp.i
-.PHONY : src/LitNumerique.cpp.i
+src/Litteral/LitNumerique.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/Litteral/LitNumerique.cpp.i
+.PHONY : src/Litteral/LitNumerique.cpp.i
 
-src/LitNumerique.s: src/LitNumerique.cpp.s
-.PHONY : src/LitNumerique.s
+src/Litteral/LitNumerique.s: src/Litteral/LitNumerique.cpp.s
+.PHONY : src/Litteral/LitNumerique.s
 
 # target to generate assembly for a file
-src/LitNumerique.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/LitNumerique.cpp.s
-.PHONY : src/LitNumerique.cpp.s
+src/Litteral/LitNumerique.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/Litteral/LitNumerique.cpp.s
+.PHONY : src/Litteral/LitNumerique.cpp.s
 
-src/LitRationelle.o: src/LitRationelle.cpp.o
-.PHONY : src/LitRationelle.o
+src/Litteral/LitRationelle.o: src/Litteral/LitRationelle.cpp.o
+.PHONY : src/Litteral/LitRationelle.o
 
 # target to build an object file
-src/LitRationelle.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/LitRationelle.cpp.o
-.PHONY : src/LitRationelle.cpp.o
+src/Litteral/LitRationelle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/Litteral/LitRationelle.cpp.o
+.PHONY : src/Litteral/LitRationelle.cpp.o
 
-src/LitRationelle.i: src/LitRationelle.cpp.i
-.PHONY : src/LitRationelle.i
+src/Litteral/LitRationelle.i: src/Litteral/LitRationelle.cpp.i
+.PHONY : src/Litteral/LitRationelle.i
 
 # target to preprocess a source file
-src/LitRationelle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/LitRationelle.cpp.i
-.PHONY : src/LitRationelle.cpp.i
+src/Litteral/LitRationelle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/Litteral/LitRationelle.cpp.i
+.PHONY : src/Litteral/LitRationelle.cpp.i
 
-src/LitRationelle.s: src/LitRationelle.cpp.s
-.PHONY : src/LitRationelle.s
+src/Litteral/LitRationelle.s: src/Litteral/LitRationelle.cpp.s
+.PHONY : src/Litteral/LitRationelle.s
 
 # target to generate assembly for a file
-src/LitRationelle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/LitRationelle.cpp.s
-.PHONY : src/LitRationelle.cpp.s
+src/Litteral/LitRationelle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/Litteral/LitRationelle.cpp.s
+.PHONY : src/Litteral/LitRationelle.cpp.s
 
-src/LitReelle.o: src/LitReelle.cpp.o
-.PHONY : src/LitReelle.o
+src/Litteral/LitReelle.o: src/Litteral/LitReelle.cpp.o
+.PHONY : src/Litteral/LitReelle.o
 
 # target to build an object file
-src/LitReelle.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/LitReelle.cpp.o
-.PHONY : src/LitReelle.cpp.o
+src/Litteral/LitReelle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/Litteral/LitReelle.cpp.o
+.PHONY : src/Litteral/LitReelle.cpp.o
 
-src/LitReelle.i: src/LitReelle.cpp.i
-.PHONY : src/LitReelle.i
+src/Litteral/LitReelle.i: src/Litteral/LitReelle.cpp.i
+.PHONY : src/Litteral/LitReelle.i
 
 # target to preprocess a source file
-src/LitReelle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/LitReelle.cpp.i
-.PHONY : src/LitReelle.cpp.i
+src/Litteral/LitReelle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/Litteral/LitReelle.cpp.i
+.PHONY : src/Litteral/LitReelle.cpp.i
 
-src/LitReelle.s: src/LitReelle.cpp.s
-.PHONY : src/LitReelle.s
+src/Litteral/LitReelle.s: src/Litteral/LitReelle.cpp.s
+.PHONY : src/Litteral/LitReelle.s
 
 # target to generate assembly for a file
-src/LitReelle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/LitReelle.cpp.s
-.PHONY : src/LitReelle.cpp.s
+src/Litteral/LitReelle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/Litteral/LitReelle.cpp.s
+.PHONY : src/Litteral/LitReelle.cpp.s
 
 src/MainWindow.o: src/MainWindow.cpp.o
 .PHONY : src/MainWindow.o
@@ -499,21 +499,21 @@ help:
 	@echo "... calculator_autogen/mocs_compilation.o"
 	@echo "... calculator_autogen/mocs_compilation.i"
 	@echo "... calculator_autogen/mocs_compilation.s"
-	@echo "... src/LitEntier.o"
-	@echo "... src/LitEntier.i"
-	@echo "... src/LitEntier.s"
-	@echo "... src/LitExpression.o"
-	@echo "... src/LitExpression.i"
-	@echo "... src/LitExpression.s"
-	@echo "... src/LitNumerique.o"
-	@echo "... src/LitNumerique.i"
-	@echo "... src/LitNumerique.s"
-	@echo "... src/LitRationelle.o"
-	@echo "... src/LitRationelle.i"
-	@echo "... src/LitRationelle.s"
-	@echo "... src/LitReelle.o"
-	@echo "... src/LitReelle.i"
-	@echo "... src/LitReelle.s"
+	@echo "... src/Litteral/LitEntier.o"
+	@echo "... src/Litteral/LitEntier.i"
+	@echo "... src/Litteral/LitEntier.s"
+	@echo "... src/Litteral/LitExpression.o"
+	@echo "... src/Litteral/LitExpression.i"
+	@echo "... src/Litteral/LitExpression.s"
+	@echo "... src/Litteral/LitNumerique.o"
+	@echo "... src/Litteral/LitNumerique.i"
+	@echo "... src/Litteral/LitNumerique.s"
+	@echo "... src/Litteral/LitRationelle.o"
+	@echo "... src/Litteral/LitRationelle.i"
+	@echo "... src/Litteral/LitRationelle.s"
+	@echo "... src/Litteral/LitReelle.o"
+	@echo "... src/Litteral/LitReelle.i"
+	@echo "... src/Litteral/LitReelle.s"
 	@echo "... src/MainWindow.o"
 	@echo "... src/MainWindow.i"
 	@echo "... src/MainWindow.s"
