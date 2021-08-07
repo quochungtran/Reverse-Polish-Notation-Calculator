@@ -2,6 +2,7 @@
 #define Litterale_h
 #include <iostream>
 #include "CalculatorException.h"
+
 enum typeLit
 {
     ENTIER,
@@ -17,28 +18,32 @@ class LitNumerique;
 class Litterale
 {
 
-protected:
-
 public:
 
-    // always make destructor virtual when dealing with inheritance
+    /**
+    * Always make destructor virtual when dealing with inheritance
+    */
     virtual ~Litterale() = default;
 
-    //check if the litteral is null,  const member function dont allow to change any member variables
-
+    /**
+    * Check if the litteral is null,  const member function dont allow to change any member variables
+    */
     virtual bool isNull()       const = 0;
 
-    // return type of litterale
-
+    /**
+    * Return type of litterale
+    */
     virtual typeLit getType()   const = 0;
 
-    // affchier la valeur
-
+    /**    
+    * affchier la valeur
+    */
     virtual QString getText()         = 0;
 
-    // This function permet de tirer le pointeur Numerique pour des classes contient la valeur Numerique
-    // on active Polymopphism la
-
+    /**    
+    * This function permet de tirer le pointeur Numerique pour des classes contient la valeur Numerique
+    * on active Polymopphism la
+    */
     virtual LitNumerique *getValeurNumerique() = 0;
 
 private:
