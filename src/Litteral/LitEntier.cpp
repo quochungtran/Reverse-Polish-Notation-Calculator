@@ -2,16 +2,25 @@
 #include "LitRationelle.h"
 #include "LitReelle.h"
 #include "CalculatorException.h"
-// Verifier l'entier est null ou pas
+
 bool LitEntier::isNull() const
 {
     return (valeur == 0);
 }
 
-// Verifier l'entier est positive ou pas
 bool LitEntier::isPos() const
 {
     return (valeur > 0);
+}
+
+typeLit LitEntier::getType() const
+{
+    return typeLit::ENTIER;
+}
+
+int LitEntier::getValeur() const 
+{
+    return valeur; 
 }
 
 LitNumerique *LitEntier::convertToNumrique(typeLit type)
@@ -206,7 +215,7 @@ LitNumerique *LitEntier::POW(LitNumerique &l)
         return LitNumerique::POW(l);
     }
     LitEntier &l_new = dynamic_cast<LitEntier &>(l);
-    return new LitEntier( std::pow(valeur,l_new.valeur));
+    return new LitEntier(std::pow(valeur, l_new.valeur));
 }
 
 // LitNumerique *LitEntier::POW(LitNumerique &l)

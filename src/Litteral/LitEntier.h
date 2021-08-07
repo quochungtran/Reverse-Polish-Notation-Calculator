@@ -10,18 +10,19 @@ private:
     int valeur;
 
 public:
-    LitEntier(int val)
+    explicit LitEntier(int val)
         : valeur(val)
     {
     }
     ~LitEntier() {}
-    bool isNull() const;
-    bool isPos() const;
-    //accesseur en lecture
-    int getValeur() const { return valeur; }
-    typeLit getType() const override { return typeLit::ENTIER; }
 
-    QString getText() ;
+    bool         isNull()                   const;
+    bool         isPos()                    const;
+    typeLit      getType()                  const override ;
+
+    int          getValeur()                const ;
+
+    QString      getText();
 
     LitNumerique *convertToNumrique(typeLit type) override;
     // Des operateurs
