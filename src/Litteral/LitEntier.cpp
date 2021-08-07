@@ -29,10 +29,12 @@ LitNumerique *LitEntier::convertToNumrique(typeLit type)
     {
         return new LitEntier{valeur};
     }
+
     if (type == typeLit::RAT)
     {
         return new LitRationelle{valeur};
     }
+
     if (type == typeLit::REELLE)
     {
         return new LitReelle{double(valeur)};
@@ -44,14 +46,16 @@ QString LitEntier::getText()
     return QString(std::to_string(valeur).c_str());
 }
 
-//  Overriding Les operateurs
-LitNumerique *LitEntier::operator+(LitNumerique &l)
+
+LitNumerique* LitEntier::operator+(LitNumerique &l)
 {
     if (l.getType() != typeLit::ENTIER)
     {
         return LitNumerique::operator+(l);
     }
+
     LitEntier &l_new = dynamic_cast<LitEntier &>(l);
+    
     return new LitEntier(valeur + l_new.valeur);
 }
 
@@ -61,7 +65,9 @@ LitNumerique *LitEntier::operator-(LitNumerique &l)
     {
         return LitNumerique::operator-(l);
     }
+    
     LitEntier &l_new = dynamic_cast<LitEntier &>(l);
+    
     return new LitEntier(valeur - l_new.valeur);
 }
 
@@ -71,7 +77,9 @@ LitNumerique *LitEntier::operator*(LitNumerique &l)
     {
         return LitNumerique::operator*(l);
     }
+    
     LitEntier &l_new = dynamic_cast<LitEntier &>(l);
+    
     return new LitEntier(valeur * l_new.valeur);
 }
 
@@ -81,9 +89,12 @@ LitNumerique *LitEntier::operator/(LitNumerique &l)
     {
         return LitNumerique::operator/(l);
     }
+    
     LitEntier &l_new = dynamic_cast<LitEntier &>(l);
+    
     if (l.isNull())
         throw CalculatorException("Division impossible par 0");
+
     return new LitRationelle(valeur, l_new.valeur);
 }
 
@@ -93,7 +104,9 @@ bool LitEntier::operator==(LitNumerique &l)
     {
         return LitNumerique::operator==(l);
     }
+
     LitEntier &l_new = dynamic_cast<LitEntier &>(l);
+    
     return this->valeur == l_new.valeur;
 }
 
@@ -103,7 +116,9 @@ bool LitEntier::operator!=(LitNumerique &l)
     {
         return LitNumerique::operator!=(l);
     }
+
     LitEntier &l_new = dynamic_cast<LitEntier &>(l);
+
     return this->valeur != l_new.valeur;
 }
 
@@ -113,7 +128,9 @@ bool LitEntier::operator>=(LitNumerique &l)
     {
         return LitNumerique::operator>=(l);
     }
+
     LitEntier &l_new = dynamic_cast<LitEntier &>(l);
+
     return this->valeur >= l_new.valeur;
 }
 
@@ -123,7 +140,9 @@ bool LitEntier::operator<=(LitNumerique &l)
     {
         return LitNumerique::operator<=(l);
     }
+
     LitEntier &l_new = dynamic_cast<LitEntier &>(l);
+
     return this->valeur <= l_new.valeur;
 }
 
@@ -133,7 +152,9 @@ bool LitEntier::operator>(LitNumerique &l)
     {
         return LitNumerique::operator>(l);
     }
+
     LitEntier &l_new = dynamic_cast<LitEntier &>(l);
+
     return this->valeur > l_new.valeur;
 }
 
@@ -143,7 +164,9 @@ bool LitEntier::operator<(LitNumerique &l)
     {
         return LitNumerique::operator<(l);
     }
+
     LitEntier &l_new = dynamic_cast<LitEntier &>(l);
+
     return this->valeur < l_new.valeur;
 }
 
@@ -214,7 +237,9 @@ LitNumerique *LitEntier::POW(LitNumerique &l)
     {
         return LitNumerique::POW(l);
     }
+    
     LitEntier &l_new = dynamic_cast<LitEntier &>(l);
+    
     return new LitEntier(std::pow(valeur, l_new.valeur));
 }
 
