@@ -314,6 +314,30 @@ src/Litteral/LitNumerique.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/Litteral/LitNumerique.cpp.s
 .PHONY : src/Litteral/LitNumerique.cpp.s
 
+src/Litteral/LitProgramme.o: src/Litteral/LitProgramme.cpp.o
+.PHONY : src/Litteral/LitProgramme.o
+
+# target to build an object file
+src/Litteral/LitProgramme.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/Litteral/LitProgramme.cpp.o
+.PHONY : src/Litteral/LitProgramme.cpp.o
+
+src/Litteral/LitProgramme.i: src/Litteral/LitProgramme.cpp.i
+.PHONY : src/Litteral/LitProgramme.i
+
+# target to preprocess a source file
+src/Litteral/LitProgramme.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/Litteral/LitProgramme.cpp.i
+.PHONY : src/Litteral/LitProgramme.cpp.i
+
+src/Litteral/LitProgramme.s: src/Litteral/LitProgramme.cpp.s
+.PHONY : src/Litteral/LitProgramme.s
+
+# target to generate assembly for a file
+src/Litteral/LitProgramme.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/Litteral/LitProgramme.cpp.s
+.PHONY : src/Litteral/LitProgramme.cpp.s
+
 src/Litteral/LitRationelle.o: src/Litteral/LitRationelle.cpp.o
 .PHONY : src/Litteral/LitRationelle.o
 
@@ -535,6 +559,9 @@ help:
 	@echo "... src/Litteral/LitNumerique.o"
 	@echo "... src/Litteral/LitNumerique.i"
 	@echo "... src/Litteral/LitNumerique.s"
+	@echo "... src/Litteral/LitProgramme.o"
+	@echo "... src/Litteral/LitProgramme.i"
+	@echo "... src/Litteral/LitProgramme.s"
 	@echo "... src/Litteral/LitRationelle.o"
 	@echo "... src/Litteral/LitRationelle.i"
 	@echo "... src/Litteral/LitRationelle.s"
