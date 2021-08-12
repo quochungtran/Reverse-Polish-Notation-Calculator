@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/Litterale_utest.dir/Litterale_utest_autogen/mocs_compilation.cpp.o CMakeFiles/Litterale_utest.dir/Litterale_utest.cpp.o -o Litterale_utest  ../libcalculator.a /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8 

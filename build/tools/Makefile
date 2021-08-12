@@ -117,6 +117,20 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+tools/CMakeFiles/Litterale_utest.dir/rule:
+	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/CMakeFiles/Litterale_utest.dir/rule
+.PHONY : tools/CMakeFiles/Litterale_utest.dir/rule
+
+# Convenience name for target.
+Litterale_utest: tools/CMakeFiles/Litterale_utest.dir/rule
+.PHONY : Litterale_utest
+
+# fast build rule for target.
+Litterale_utest/fast:
+	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/Litterale_utest.dir/build.make tools/CMakeFiles/Litterale_utest.dir/build
+.PHONY : Litterale_utest/fast
+
+# Convenience name for target.
 tools/CMakeFiles/testUnit1.dir/rule:
 	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/CMakeFiles/testUnit1.dir/rule
 .PHONY : tools/CMakeFiles/testUnit1.dir/rule
@@ -131,6 +145,20 @@ testUnit1/fast:
 .PHONY : testUnit1/fast
 
 # Convenience name for target.
+tools/CMakeFiles/Litterale_utest_autogen.dir/rule:
+	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/CMakeFiles/Litterale_utest_autogen.dir/rule
+.PHONY : tools/CMakeFiles/Litterale_utest_autogen.dir/rule
+
+# Convenience name for target.
+Litterale_utest_autogen: tools/CMakeFiles/Litterale_utest_autogen.dir/rule
+.PHONY : Litterale_utest_autogen
+
+# fast build rule for target.
+Litterale_utest_autogen/fast:
+	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/Litterale_utest_autogen.dir/build.make tools/CMakeFiles/Litterale_utest_autogen.dir/build
+.PHONY : Litterale_utest_autogen/fast
+
+# Convenience name for target.
 tools/CMakeFiles/testUnit1_autogen.dir/rule:
 	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/CMakeFiles/testUnit1_autogen.dir/rule
 .PHONY : tools/CMakeFiles/testUnit1_autogen.dir/rule
@@ -143,6 +171,54 @@ testUnit1_autogen: tools/CMakeFiles/testUnit1_autogen.dir/rule
 testUnit1_autogen/fast:
 	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/testUnit1_autogen.dir/build.make tools/CMakeFiles/testUnit1_autogen.dir/build
 .PHONY : testUnit1_autogen/fast
+
+Litterale_utest.o: Litterale_utest.cpp.o
+.PHONY : Litterale_utest.o
+
+# target to build an object file
+Litterale_utest.cpp.o:
+	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/Litterale_utest.dir/build.make tools/CMakeFiles/Litterale_utest.dir/Litterale_utest.cpp.o
+.PHONY : Litterale_utest.cpp.o
+
+Litterale_utest.i: Litterale_utest.cpp.i
+.PHONY : Litterale_utest.i
+
+# target to preprocess a source file
+Litterale_utest.cpp.i:
+	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/Litterale_utest.dir/build.make tools/CMakeFiles/Litterale_utest.dir/Litterale_utest.cpp.i
+.PHONY : Litterale_utest.cpp.i
+
+Litterale_utest.s: Litterale_utest.cpp.s
+.PHONY : Litterale_utest.s
+
+# target to generate assembly for a file
+Litterale_utest.cpp.s:
+	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/Litterale_utest.dir/build.make tools/CMakeFiles/Litterale_utest.dir/Litterale_utest.cpp.s
+.PHONY : Litterale_utest.cpp.s
+
+Litterale_utest_autogen/mocs_compilation.o: Litterale_utest_autogen/mocs_compilation.cpp.o
+.PHONY : Litterale_utest_autogen/mocs_compilation.o
+
+# target to build an object file
+Litterale_utest_autogen/mocs_compilation.cpp.o:
+	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/Litterale_utest.dir/build.make tools/CMakeFiles/Litterale_utest.dir/Litterale_utest_autogen/mocs_compilation.cpp.o
+.PHONY : Litterale_utest_autogen/mocs_compilation.cpp.o
+
+Litterale_utest_autogen/mocs_compilation.i: Litterale_utest_autogen/mocs_compilation.cpp.i
+.PHONY : Litterale_utest_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+Litterale_utest_autogen/mocs_compilation.cpp.i:
+	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/Litterale_utest.dir/build.make tools/CMakeFiles/Litterale_utest.dir/Litterale_utest_autogen/mocs_compilation.cpp.i
+.PHONY : Litterale_utest_autogen/mocs_compilation.cpp.i
+
+Litterale_utest_autogen/mocs_compilation.s: Litterale_utest_autogen/mocs_compilation.cpp.s
+.PHONY : Litterale_utest_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+Litterale_utest_autogen/mocs_compilation.cpp.s:
+	cd /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/Litterale_utest.dir/build.make tools/CMakeFiles/Litterale_utest.dir/Litterale_utest_autogen/mocs_compilation.cpp.s
+.PHONY : Litterale_utest_autogen/mocs_compilation.cpp.s
 
 testUnit1.o: testUnit1.cpp.o
 .PHONY : testUnit1.o
@@ -200,8 +276,16 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... Litterale_utest_autogen"
 	@echo "... testUnit1_autogen"
+	@echo "... Litterale_utest"
 	@echo "... testUnit1"
+	@echo "... Litterale_utest.o"
+	@echo "... Litterale_utest.i"
+	@echo "... Litterale_utest.s"
+	@echo "... Litterale_utest_autogen/mocs_compilation.o"
+	@echo "... Litterale_utest_autogen/mocs_compilation.i"
+	@echo "... Litterale_utest_autogen/mocs_compilation.s"
 	@echo "... testUnit1.o"
 	@echo "... testUnit1.i"
 	@echo "... testUnit1.s"
