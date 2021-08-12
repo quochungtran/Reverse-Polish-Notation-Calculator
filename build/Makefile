@@ -218,6 +218,30 @@ calculator_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.s
 .PHONY : calculator_autogen/mocs_compilation.cpp.s
 
+src/Litteral/LitAtom.o: src/Litteral/LitAtom.cpp.o
+.PHONY : src/Litteral/LitAtom.o
+
+# target to build an object file
+src/Litteral/LitAtom.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/Litteral/LitAtom.cpp.o
+.PHONY : src/Litteral/LitAtom.cpp.o
+
+src/Litteral/LitAtom.i: src/Litteral/LitAtom.cpp.i
+.PHONY : src/Litteral/LitAtom.i
+
+# target to preprocess a source file
+src/Litteral/LitAtom.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/Litteral/LitAtom.cpp.i
+.PHONY : src/Litteral/LitAtom.cpp.i
+
+src/Litteral/LitAtom.s: src/Litteral/LitAtom.cpp.s
+.PHONY : src/Litteral/LitAtom.s
+
+# target to generate assembly for a file
+src/Litteral/LitAtom.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/src/Litteral/LitAtom.cpp.s
+.PHONY : src/Litteral/LitAtom.cpp.s
+
 src/Litteral/LitEntier.o: src/Litteral/LitEntier.cpp.o
 .PHONY : src/Litteral/LitEntier.o
 
@@ -499,6 +523,9 @@ help:
 	@echo "... calculator_autogen/mocs_compilation.o"
 	@echo "... calculator_autogen/mocs_compilation.i"
 	@echo "... calculator_autogen/mocs_compilation.s"
+	@echo "... src/Litteral/LitAtom.o"
+	@echo "... src/Litteral/LitAtom.i"
+	@echo "... src/Litteral/LitAtom.s"
 	@echo "... src/Litteral/LitEntier.o"
 	@echo "... src/Litteral/LitEntier.i"
 	@echo "... src/Litteral/LitEntier.s"

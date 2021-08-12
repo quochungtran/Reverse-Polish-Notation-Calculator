@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "calculator_autogen"
   "CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/calculator.dir/src/Litteral/LitAtom.cpp.o"
+  "CMakeFiles/calculator.dir/src/Litteral/LitAtom.cpp.o.d"
   "CMakeFiles/calculator.dir/src/Litteral/LitEntier.cpp.o"
   "CMakeFiles/calculator.dir/src/Litteral/LitEntier.cpp.o.d"
   "CMakeFiles/calculator.dir/src/Litteral/LitExpression.cpp.o"

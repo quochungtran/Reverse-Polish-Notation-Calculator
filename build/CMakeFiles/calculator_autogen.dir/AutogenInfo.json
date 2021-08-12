@@ -202,6 +202,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitAtom.h",
+			"MU",
+			"FV4HPSDTYZ/moc_LitAtom.cpp",
+			null
+		],
+		[
 			"/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitEntier.h",
 			"MU",
 			"FV4HPSDTYZ/moc_LitEntier.cpp",
@@ -322,6 +328,11 @@
 	"SETTINGS_FILE" : "/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles/calculator_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitAtom.cpp",
+			"MU",
+			null
+		],
 		[
 			"/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/src/Litteral/LitEntier.cpp",
 			"MU",
