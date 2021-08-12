@@ -15,21 +15,23 @@ public:
     {
     }
     ~LitExpression() {}
-    bool isNull() const;
-    //accesseur en lecture
+
+    bool         isNull()     const;
 
     // pour tirer le nom de Litterale ATOM
-    QString getNom() const { return nom.mid(1, nom.length() - 2); }
+    
+    QString      getNom()     const;         
+    
     // tirer le type de Litterale
-    typeLit getType() const override { return typeLit::EXP; }
+    typeLit      getType()    const override;
+
     // tirer le text pour afficher dans le pile
-    QString getText() { return nom; }
+    QString      getText();                
+    
     // This function permet de tirer le pointeur Numerique pour des classes contient la valeur Numerique
-    virtual LitNumerique *getValeurNumerique() override
-    {
-        return nullptr;
-    }
-    void setNom(const QString &c) { nom = c; }
+    virtual      LitNumerique *getValeurNumerique() override;
+    
+    void setNom(const QString &c);
 };
 
 #endif

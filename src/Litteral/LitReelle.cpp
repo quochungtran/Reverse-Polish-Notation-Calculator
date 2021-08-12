@@ -22,6 +22,26 @@ LitNumerique *LitReelle::convertToNumrique(typeLit type)
     return this;
 }
 
+double LitReelle::getValeur() const
+{
+    return valeur;
+}
+
+double LitReelle::getPartieDecimale() const
+{
+    return PartieDecimale;
+}
+
+int LitReelle::getPartieEntier() const
+{
+    return PartieEntiere;
+}
+
+typeLit LitReelle::getType() const
+{
+    return typeLit::REELLE;
+}
+
 LitNumerique *LitReelle::operator+(LitNumerique &l)
 {
     if (l.getType() != typeLit::REELLE)

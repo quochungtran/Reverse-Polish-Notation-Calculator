@@ -13,6 +13,21 @@ bool LitRationelle::isPos() const
     return (numerateur > 0);
 }
 
+typeLit LitRationelle::getType() const
+{
+    return typeLit::RAT;
+}
+
+int LitRationelle::getNum() const
+{
+    return numerateur;
+}
+
+unsigned int LitRationelle::getDen() const
+{
+    return denominateur;
+}
+
 LitNumerique *LitRationelle::convertToNumrique(typeLit type)
 {
     switch (type)
