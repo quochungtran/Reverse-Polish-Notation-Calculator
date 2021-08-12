@@ -41,7 +41,7 @@ LitNumerique *LitEntier::convertToNumrique(typeLit type)
     }
 }
 
-QString LitEntier::getText()
+QString LitEntier::getText() const
 {
     return QString(std::to_string(valeur).c_str());
 }

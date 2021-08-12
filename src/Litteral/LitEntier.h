@@ -19,11 +19,8 @@ public:
     bool         isNull()                             const;
     bool         isPos()                              const;
     typeLit      getType()                            const override ;
-          
     int          getValeur()                          const;
-
-    QString      getText();
-
+    QString      getText()                            const;
     LitNumerique *convertToNumrique(typeLit type)     override;
     // Des operateurs
     // ajouter virtual surchage operator

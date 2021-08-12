@@ -12,7 +12,7 @@ bool LitReelle::isPos() const
     return (valeur > 0);
 }
 
-QString LitReelle::getText()
+QString LitReelle::getText() const
 {
     return QString::number(valeur);
 }

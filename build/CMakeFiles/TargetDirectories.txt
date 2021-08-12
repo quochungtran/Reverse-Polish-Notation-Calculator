@@ -4,7 +4,9 @@
 /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/CMakeFiles/calculator_autogen.dir
 /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/tools/CMakeFiles/rebuild_cache.dir
 /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/tools/CMakeFiles/edit_cache.dir
+/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/tools/CMakeFiles/Litterale_utest.dir
 /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/tools/CMakeFiles/testUnit1.dir
+/home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/tools/CMakeFiles/Litterale_utest_autogen.dir
 /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/tools/CMakeFiles/testUnit1_autogen.dir
 /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/src/CMakeFiles/edit_cache.dir
 /home/tranquochung/Desktop/repositories/github/Reverse-Polish-Notation-Calculator/build/src/CMakeFiles/rebuild_cache.dir

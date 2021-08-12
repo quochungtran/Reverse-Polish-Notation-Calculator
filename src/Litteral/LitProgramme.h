@@ -20,7 +20,7 @@ public:
     
     //Si on veut ajouter autre type Litteral de Number par exemple Litteral Complexe
     //ajouter virtual surchage operator apres pour generer Litterale Complexe
-    QString        getText();
+    QString        getText()  const;
     
     // This function permet de tirer le pointeur Numerique pour des classes contient la valeur Numerique
     // on active Polymopphism la

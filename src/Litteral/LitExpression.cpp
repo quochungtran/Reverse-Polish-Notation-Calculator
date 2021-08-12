@@ -15,7 +15,7 @@ typeLit LitExpression::getType() const
    return typeLit::EXP;
 }
 
-QString LitExpression::getText()
+QString LitExpression::getText() const
 {
    return nom;
 }

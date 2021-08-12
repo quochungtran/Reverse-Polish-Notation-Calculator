@@ -13,12 +13,11 @@ public:
 
     bool           isNull()                     const;
     bool           isPos()                      const;
-    //accesseur en lecture
     double         getValeur()                  const;
     double         getPartieDecimale()          const;
     int            getPartieEntier()            const;
     typeLit        getType()                    const;
-    LitNumerique *convertToNumrique(typeLit type) override;
+    LitNumerique * convertToNumrique(typeLit type) override;
     // Des operateurs
     // ajouter virtual surchage operator
     LitNumerique *operator+(LitNumerique &l)      override;
@@ -43,12 +42,12 @@ public:
     LitNumerique *ARCSIN()                        override;
     LitNumerique *SQRT()                          override;
     LitNumerique *EXP()                           override;
-    LitNumerique *LN()                            override;
+    LitNumerique *LN()                            override; 
     LitNumerique *NUM()                           override;
     LitNumerique *DEN()                           override;
     // LitNumerique *POW(LitNumerique &l) override;
 
-    QString getText() ;
+    QString getText() const ;
     // LitNumerique *getValeurNumerique() { return this; }
 
 private:

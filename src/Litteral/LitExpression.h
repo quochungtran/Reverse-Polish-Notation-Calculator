@@ -26,12 +26,12 @@ public:
     typeLit      getType()    const override;
 
     // tirer le text pour afficher dans le pile
-    QString      getText();                
+    QString      getText()    const;                
     
     // This function permet de tirer le pointeur Numerique pour des classes contient la valeur Numerique
     virtual      LitNumerique *getValeurNumerique() override;
     
-    void setNom(const QString &c);
+    void         setNom(const QString &c);
 };
 
 #endif

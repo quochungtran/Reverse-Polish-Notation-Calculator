@@ -143,6 +143,19 @@ calculator_autogen/fast:
 .PHONY : calculator_autogen/fast
 
 #=============================================================================
+# Target rules for targets named Litterale_utest
+
+# Build rule for target.
+Litterale_utest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Litterale_utest
+.PHONY : Litterale_utest
+
+# fast build rule for target.
+Litterale_utest/fast:
+	$(MAKE) $(MAKESILENT) -f tools/CMakeFiles/Litterale_utest.dir/build.make tools/CMakeFiles/Litterale_utest.dir/build
+.PHONY : Litterale_utest/fast
+
+#=============================================================================
 # Target rules for targets named testUnit1
 
 # Build rule for target.
@@ -154,6 +167,19 @@ testUnit1: cmake_check_build_system
 testUnit1/fast:
 	$(MAKE) $(MAKESILENT) -f tools/CMakeFiles/testUnit1.dir/build.make tools/CMakeFiles/testUnit1.dir/build
 .PHONY : testUnit1/fast
+
+#=============================================================================
+# Target rules for targets named Litterale_utest_autogen
+
+# Build rule for target.
+Litterale_utest_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Litterale_utest_autogen
+.PHONY : Litterale_utest_autogen
+
+# fast build rule for target.
+Litterale_utest_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f tools/CMakeFiles/Litterale_utest_autogen.dir/build.make tools/CMakeFiles/Litterale_utest_autogen.dir/build
+.PHONY : Litterale_utest_autogen/fast
 
 #=============================================================================
 # Target rules for targets named testUnit1_autogen
@@ -538,9 +564,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... Litterale_utest_autogen"
 	@echo "... calculator_app_autogen"
 	@echo "... calculator_autogen"
 	@echo "... testUnit1_autogen"
+	@echo "... Litterale_utest"
 	@echo "... calculator"
 	@echo "... calculator_app"
 	@echo "... testUnit1"

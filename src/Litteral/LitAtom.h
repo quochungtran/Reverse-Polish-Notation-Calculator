@@ -20,18 +20,18 @@ public:
     }
 
     bool                    isNull()            const;
-    //accesseur en lecture      
     QString                 getNom()            const;
     Litterale *             getValeur()         const;
     typeLit                 getType()           const override;
-    QString                 getText();
+    QString                 getText()           const;
+
     // This function permet de tirer le pointeur Numerique pour des classes contient la valeur Numerique
-    virtual LitNumerique *getValeurNumerique()  override;
+    virtual LitNumerique*   getValeurNumerique()  override;
 
-    LitProgramme *getProgramme();
+    LitProgramme*           getProgramme();
 
-    void setValeur(Litterale *l1);
-    void setNom   (const QString &c); 
+    void                    setValeur(Litterale *l1);
+    void                    setNom(const QString &c); 
 };
 
 #endif

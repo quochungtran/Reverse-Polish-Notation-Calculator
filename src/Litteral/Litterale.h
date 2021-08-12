@@ -28,17 +28,17 @@ public:
     /**
     * Check if the litteral is null,  const member function dont allow to change any member variables
     */
-    virtual bool isNull()       const = 0;
+    virtual bool isNull()       const  = 0;
 
     /**
     * Return type of litterale
     */
-    virtual typeLit getType()   const = 0;
+    virtual typeLit getType()   const  = 0;
 
     /**    
     * affchier la valeur
     */
-    virtual QString getText()         = 0;
+    virtual QString getText()    const = 0;
 
     /**    
     * take pointeur Numerique pour derived classes Numerique

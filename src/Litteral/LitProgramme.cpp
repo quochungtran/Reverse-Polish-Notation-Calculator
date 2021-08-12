@@ -10,7 +10,7 @@ typeLit LitProgramme::getType() const
     return typeLit::PROG;
 }
 
-QString LitProgramme::getText()
+QString LitProgramme::getText() const
 {
     return suitOperand;
 }

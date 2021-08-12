@@ -81,7 +81,7 @@ void LitRationelle::simplifier()
     }
 }
 
-QString LitRationelle::getText()
+QString LitRationelle::getText() const
 {
     if (denominateur != 1)
         return QString((std::to_string(numerateur) + '/' + std::to_string(denominateur)).c_str());

@@ -23,7 +23,7 @@ typeLit LitAtom::getType() const
     return typeLit::Atom;
 }
 
-QString LitAtom::getText()
+QString LitAtom::getText() const
 {
     return nom;
 }

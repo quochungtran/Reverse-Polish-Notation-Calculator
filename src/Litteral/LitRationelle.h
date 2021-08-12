@@ -18,14 +18,12 @@ public:
     bool            isNull()                        const;
     bool            isPos()                         const;
     typeLit         getType()                       const override;
-
-
     int             getNum()                        const;
     unsigned int    getDen()                        const;
     LitNumerique *  convertToNumrique(typeLit type) override;
 
     void simplifier();
-    QString getText() ;
+    QString getText()                               const;
     // ajouter virtual surchage operator
     // Des operateurs
     // ajouter virtual surchage operator

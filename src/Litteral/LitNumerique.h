@@ -19,7 +19,7 @@ public:
     virtual bool           isPos()                                 const = 0;
     virtual typeLit        getType()                               const = 0;
     virtual LitNumerique*  convertToNumrique(typeLit type)               = 0;
-    virtual QString        getText()                                     = 0;
+    virtual QString        getText()                               const = 0;
 
     //  This function permet de tirer le pointeur Numerique pour des classes contient la valeur Numerique
     //  using override for every virtual function override you write 

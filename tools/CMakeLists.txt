@@ -30,6 +30,7 @@ ENDMACRO()
 # Add here new tools to compile.
 
 PROJECT_TOOLS_BUILD(testUnit1.cpp)
+PROJECT_TOOLS_BUILD(Litterale_utest.cpp)
 
 
 
