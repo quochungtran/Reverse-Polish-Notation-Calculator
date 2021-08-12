@@ -43,6 +43,7 @@ SET(all_SOURCES
         ${CMAKE_CURRENT_SOURCE_DIR}/src/Litteral/LitNumerique.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/src/Litteral/LitRationelle.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/src/Litteral/LitReelle.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/Litteral/LitAtom.cpp
         
         ${CMAKE_CURRENT_SOURCE_DIR}/src/MainWindow.cpp
 
